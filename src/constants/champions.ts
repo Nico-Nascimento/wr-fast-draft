@@ -1,48 +1,58 @@
 import imgAatrox from '@/public/images/champions/aatrox.jpg'
 
 
+import imgIreliaFace from '@/public/images/champions/irelia-face.webp'
+import imgFioraFace from '@/public/images/champions/fiora-face.webp'
+import imgJaxFace from '@/public/images/champions/jax-face.webp'
+import imgSionFace from '@/public/images/champions/sion-face.webp'
+import imgDrMundoFace from '@/public/images/champions/dr-mundo-face.webp'
+import imgGarenFace from '@/public/images/champions/garen-face.webp'
+import imgViFace from '@/public/images/champions/vi-face.webp'
+import imgMalphiteFace from '@/public/images/champions/malphite-face.webp'
+
+
 export const champions = [
   {
     name: "Aatrox",
     image: imgAatrox,
-    // counters: [
-    //   {
-    //     name: "Irelia",
-    //     image: imgIrelia,
-    //   },
-    //   {
-    //     name: "Fiora",
-    //     image: imgFiora,
-    //   },
-    //   {
-    //     name: "Jax",
-    //     image: imgJax,
-    //   },
-    // ],
-    // goodAgainst: [
-    //   {
-    //     name: "Sion",
-    //     image: imgSion,
-    //   },
-    //   {
-    //     name: "Dr. Mundo",
-    //     image: imgDrMundo,
-    //   },
-    //   {
-    //     name: "Garen",
-    //     image: imgGaren,
-    //   },
-    // ],
-    // sinergy: [
-    //   {
-    //     name: "Vi",
-    //     image: imgVi,
-    //   },
-    //   {
-    //     name: "Malphite",
-    //     image: imgMalphite,
-    //   },
-    // ],
+    counters: [
+      {
+        name: "Irelia",
+        image: imgIreliaFace,
+      },
+      {
+        name: "Fiora",
+        image: imgFioraFace,
+      },
+      {
+        name: "Jax",
+        image: imgJaxFace,
+      },
+    ],
+    goodAgainst: [
+      {
+        name: "Sion",
+        image: imgSionFace,
+      },
+      {
+        name: "Dr. Mundo",
+        image: imgDrMundoFace,
+      },
+      {
+        name: "Garen",
+        image: imgGarenFace,
+      },
+    ],
+    synergy: [
+      {
+        name: "Vi",
+        image: imgViFace,
+      },
+      {
+        name: "Malphite",
+        image: imgMalphiteFace,
+      },
+    ],
   },
 //   {
 //     name: "Ahri",

@@ -3,11 +3,14 @@ import { Card, CardContent, CardFooter } from "./ui/card";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 interface ChampionProps {
-  championImage: string | StaticImport
-  championName: string
+  championImage: string | StaticImport;
+  championName: string;
 }
 
-export default function ChampionCard({ championImage, championName } : ChampionProps) {
+export default function ChampionCard({
+  championImage,
+  championName,
+}: ChampionProps) {
   return (
     <Card className="w-72 h-96 overflow-hidden">
       <CardContent>
