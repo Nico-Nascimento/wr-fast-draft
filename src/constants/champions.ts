@@ -1,14 +1,125 @@
 import imgAatrox from '@/public/images/champions/aatrox.jpg'
+import imgAhri from '@/public/images/champions/ahri.jpg'
+import imgAkali from '@/public/images/champions/akali.jpg'
+import imgAkshan from '@/public/images/champions/akshan.jpg'
+import imgAlistar from '@/public/images/champions/alistar.jpg'
+import imgAmumu from '@/public/images/champions/amumu.jpg'
+import imgAnnie from '@/public/images/champions/annie.jpg'
+import imgAshe from '@/public/images/champions/ashe.jpg'
+import imgAurelionSol from '@/public/images/champions/aurelionsol.jpg'
+import imgBlitzcrank from '@/public/images/champions/blitzcrank.jpg'
+import imgBrand from '@/public/images/champions/brand.jpg'
+import imgBraum from '@/public/images/champions/braum.jpg'
+import imgCaitlyn from '@/public/images/champions/caitlyn.jpg'
+import imgCamille from '@/public/images/champions/camille.jpg'
+import imgCorki from '@/public/images/champions/corki.jpg'
+import imgDarius from '@/public/images/champions/darius.jpg'
+import imgDiana from '@/public/images/champions/diana.jpg'
+import imgDrMundo from '@/public/images/champions/drmundo.jpg'
+import imgDraven from '@/public/images/champions/draven.jpg'
+import imgEkko from '@/public/images/champions/ekko.jpg'
+import imgEvelynn from '@/public/images/champions/evelynn.jpg'
+import imgEzreal from '@/public/images/champions/ezreal.jpg'
+import imgFiddlesticks from '@/public/images/champions/fiddlesticks.jpg'
+import imgFiora from '@/public/images/champions/fiora.jpg'
+import imgFizz from '@/public/images/champions/fizz.jpg'
+import imgGalio from '@/public/images/champions/galio.jpg'
+import imgGaren from '@/public/images/champions/garen.jpg'
+import imgGragas from '@/public/images/champions/gragas.jpg'
+import imgGraves from '@/public/images/champions/graves.jpg'
+import imgGwen from '@/public/images/champions/gwen.jpg'
+import imgHecarim from '@/public/images/champions/hecarim.jpg'
+import imgIrelia from '@/public/images/champions/irelia.jpg'
+import imgJanna from '@/public/images/champions/janna.jpg'
+import imgJarvan from '@/public/images/champions/jarvan.jpg'
+import imgJax from '@/public/images/champions/jax.jpg'
+import imgJayce from '@/public/images/champions/jayce.jpg'
+import imgJhin from '@/public/images/champions/jhin.jpg'
+import imgJinx from '@/public/images/champions/jinx.jpg'
+import imgKaiSa from '@/public/images/champions/kaisa.jpg'
+import imgKarma from '@/public/images/champions/karma.jpg'
+import imgKassadin from '@/public/images/champions/kassadin.jpg'
+import imgKatarina from '@/public/images/champions/katarina.jpg'
+import imgKayle from '@/public/images/champions/kayle.jpg'
+import imgKayn from '@/public/images/champions/kayn.jpg'
+import imgKennen from '@/public/images/champions/kennen.jpg'
+import imgKhaZix from '@/public/images/champions/khazix.jpg'
+import imgLeeSin from '@/public/images/champions/leesin.jpg'
+import imgLeona from '@/public/images/champions/leona.jpg'
+import imgLillia from '@/public/images/champions/lillia.jpg'
+import imgLucian from '@/public/images/champions/lucian.jpg'
+import imgLulu from '@/public/images/champions/lulu.jpg'
+import imgLux from '@/public/images/champions/lux.jpg'
+import imgMalphite from '@/public/images/champions/malphite.jpg'
+import imgMasterYi from '@/public/images/champions/masteryi.jpg'
+import imgMissFortune from '@/public/images/champions/missfortune.jpg'
+import imgMorgana from '@/public/images/champions/morgana.jpg'
+import imgNami from '@/public/images/champions/nami.jpg'
+import imgNasus from '@/public/images/champions/nasus.jpg'
+import imgNautilus from '@/public/images/champions/nautilus.jpg'
+import imgNilah from '@/public/images/champions/nilah.jpg'
+import imgNunu from '@/public/images/champions/nunu.jpg'
+import imgOlaf from '@/public/images/champions/olaf.jpg'
+import imgOrianna from '@/public/images/champions/orianna.jpg'
+import imgOrnn from '@/public/images/champions/ornn.jpg'
+import imgPantheon from '@/public/images/champions/pantheon.jpg'
+import imgPyke from '@/public/images/champions/pyke.jpg'
+import imgRakan from '@/public/images/champions/rakan.jpg'
+import imgRammus from '@/public/images/champions/rammus.jpg'
+import imgRenekton from '@/public/images/champions/renekton.jpg'
+import imgRengar from '@/public/images/champions/rengar.jpg'
+import imgRiven from '@/public/images/champions/riven.jpg'
+import imgSamira from '@/public/images/champions/samira.jpg'
+import imgSenna from '@/public/images/champions/senna.jpg'
+import imgSeraphine from '@/public/images/champions/seraphine.jpg'
+import imgSett from '@/public/images/champions/sett.jpg'
+import imgShen from '@/public/images/champions/shen.jpg'
+import imgShyvana from '@/public/images/champions/shyvana.jpg'
+import imgSinged from '@/public/images/champions/singed.jpg'
+import imgSion from '@/public/images/champions/sion.jpg'
+import imgSivir from '@/public/images/champions/sivir.jpg'
+import imgSona from '@/public/images/champions/sona.jpg'
+import imgSoraka from '@/public/images/champions/soraka.jpg'
+import imgSwain from '@/public/images/champions/swain.jpg'
+import imgSyndra from '@/public/images/champions/syndra.jpg'
+import imgTalon from '@/public/images/champions/talon.jpg'
+import imgTeemo from '@/public/images/champions/teemo.jpg'
+import imgThresh from '@/public/images/champions/thresh.jpg'
+import imgTristana from '@/public/images/champions/tristana.jpg'
+import imgTryndamere from '@/public/images/champions/tryndamere.jpg'
+import imgTwistedFate from '@/public/images/champions/twistedfate.jpg'
+import imgTwitch from '@/public/images/champions/twitch.jpg'
+import imgUrgot from '@/public/images/champions/urgot.jpg'
+import imgVarus from '@/public/images/champions/varus.jpg'
+import imgVayne from '@/public/images/champions/vayne.jpg'
+import imgVeigar from '@/public/images/champions/veigar.jpg'
+import imgVex from '@/public/images/champions/vex.jpg'
+import imgVi from '@/public/images/champions/vi.jpg'
+import imgViego from '@/public/images/champions/viego.jpg'
+import imgVladimir from '@/public/images/champions/vladimir.jpg'
+import imgVolibear from '@/public/images/champions/volibear.jpg'
+import imgWarwick from '@/public/images/champions/warwick.jpg'
+import imgWukong from '@/public/images/champions/wukong.jpg'
+import imgXayah from '@/public/images/champions/xayah.jpg'
+import imgXinZhao from '@/public/images/champions/xinzhao.jpg'
+import imgYasuo from '@/public/images/champions/yasuo.jpg'
+import imgYone from '@/public/images/champions/yone.jpg'
+import imgYuumi from '@/public/images/champions/yuumi.jpg'
+import imgZed from '@/public/images/champions/zed.jpg'
+import imgZeri from '@/public/images/champions/zeri.jpg'
+import imgZiggs from '@/public/images/champions/ziggs.jpg'
+import imgZoe from '@/public/images/champions/zoe.jpg'
+import imgZyra from '@/public/images/champions/zyra.jpg'
 
 
-import imgIreliaFace from '@/public/images/champions/irelia-face.webp'
+import imgDrMundoFace from '@/public/images/champions/drmundo-face.webp'
 import imgFioraFace from '@/public/images/champions/fiora-face.webp'
-import imgJaxFace from '@/public/images/champions/jax-face.webp'
-import imgSionFace from '@/public/images/champions/sion-face.webp'
-import imgDrMundoFace from '@/public/images/champions/dr-mundo-face.webp'
 import imgGarenFace from '@/public/images/champions/garen-face.webp'
-import imgViFace from '@/public/images/champions/vi-face.webp'
+import imgIreliaFace from '@/public/images/champions/irelia-face.webp'
+import imgJaxFace from '@/public/images/champions/jax-face.webp'
 import imgMalphiteFace from '@/public/images/champions/malphite-face.webp'
+import imgSionFace from '@/public/images/champions/sion-face.webp'
+import imgViFace from '@/public/images/champions/vi-face.webp'
 
 
 export const champions = [
@@ -54,48 +165,48 @@ export const champions = [
       },
     ],
   },
-//   {
-//     name: "Ahri",
-//     image: imgAhri,
-//     counters: [
-//       {
-//         name: "Fizz",
-//         image: imgFizz,
-//       },
-//       {
-//         name: "Yasuo",
-//         image: imgYasuo,
-//       },
-//       {
-//         name: "Diana",
-//         image: imgDiana,
-//       },
-//     ],
-//     goodAgainst: [
-//       {
-//         name: "Twisted Fate",
-//         image: imgTwistedFate,
-//       },
-//       {
-//         name: "Lux",
-//         image: imgLux,
-//       },
-//       {
-//         name: "Ziggs",
-//         image: imgZiggs,
-//       },
-//     ],
-//     sinergy: [
-//       {
-//         name: "Vi",
-//         image: imgVi,
-//       },
-//       {
-//         name: "Amumu",
-//         image: imgAmumu,
-//       },
-//     ],
-//   },
+  // {
+  //   name: "Ahri",
+  //   image: imgAhri,
+  //   counters: [
+  //     {
+  //       name: "Fizz",
+  //       image: imgFizz,
+  //     },
+  //     {
+  //       name: "Yasuo",
+  //       image: imgYasuo,
+  //     },
+  //     {
+  //       name: "Diana",
+  //       image: imgDiana,
+  //     },
+  //   ],
+  //   goodAgainst: [
+  //     {
+  //       name: "Twisted Fate",
+  //       image: imgTwistedFate,
+  //     },
+  //     {
+  //       name: "Lux",
+  //       image: imgLux,
+  //     },
+  //     {
+  //       name: "Ziggs",
+  //       image: imgZiggs,
+  //     },
+  //   ],
+  //   sinergy: [
+  //     {
+  //       name: "Vi",
+  //       image: imgVi,
+  //     },
+  //     {
+  //       name: "Amumu",
+  //       image: imgAmumu,
+  //     },
+  //   ],
+  // },
 //   {
 //     name: "Akali",
 //     image: imgAkali,
