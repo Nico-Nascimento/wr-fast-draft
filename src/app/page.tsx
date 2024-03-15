@@ -2,7 +2,7 @@ import Champions from "@/components/champions";
 
 export default function Home() {
   return (
-    <main className="bg-primary h-screen w-full text-white p-20">
+    <main className="background h-screen w-full overflow-y-scroll text-white">
       <Champions />
     </main>
   );

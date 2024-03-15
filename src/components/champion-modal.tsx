@@ -11,7 +11,7 @@ export default function ChampionModal({
   championGoodAgainst,
 }: ChampionModalProps) {
   return (
-    <div className="flex flex-col gap-6 ">
+    <div className="flex flex-col gap-6 bg-primary text-secondary p-6">
       <div>
         <p className="pb-6">Counters</p>
         <div className="flex gap-2">
@@ -22,7 +22,7 @@ export default function ChampionModal({
                 src={champion.image}
                 height={1000}
                 width={1000}
-                className="w-20 h-20"
+                className="w-20 h-20 rounded-lg"
               />
             </div>
           ))}
@@ -39,7 +39,7 @@ export default function ChampionModal({
                 src={champion.image}
                 height={1000}
                 width={1000}
-                className="w-20 h-20"
+                className="w-20 h-20 rounded-lg"
               />
             </div>
           ))}
@@ -56,7 +56,7 @@ export default function ChampionModal({
                 src={champion.image}
                 height={1000}
                 width={1000}
-                className="w-20 h-20"
+                className="w-20 h-20 rounded-lg"
               />
             </div>
           ))}

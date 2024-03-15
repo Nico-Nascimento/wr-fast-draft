@@ -12,9 +12,8 @@ export default function ChampionCard({
   championName,
 }: ChampionProps) {
   return (
-    <Card className="w-72 h-96 overflow-hidden">
-      <CardContent>
-        <div>
+      <Card className="relative w-64 h-96 overflow-hidden rounded-b-lg rounded-t-none z-10">
+        <CardContent className="h-[85%]">
           <Image
             alt="imagem do campeão"
             src={championImage}
@@ -22,11 +21,11 @@ export default function ChampionCard({
             width={1000}
             className="w-full h-full"
           />
-        </div>
-      </CardContent>
-      <CardFooter>
-        <h2 className="text-2xl font-semibold">{championName}</h2>
-      </CardFooter>
-    </Card>
+        </CardContent>
+
+        <CardFooter className="bg-primary h-[15%] text-secondary">
+          <h2 className="text-2xl font-semibold">{championName}</h2>
+        </CardFooter>
+      </Card>
   );
 }

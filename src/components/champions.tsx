@@ -3,7 +3,7 @@ import Champion from "./champion";
 
 export default function Champions() {
   return (
-    <div>
+    <div className="grid grid-cols-5 gap-12 p-10">
       {champions.map((champion) => (
         <Champion
           key={champion.name}
