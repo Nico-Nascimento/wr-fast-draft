@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/image";
+import Image, { StaticImageData } from 'next/image';
 
 interface ChampionModalProps {
   championCounters: { name: string; image: StaticImageData }[];
@@ -8,14 +8,14 @@ interface ChampionModalProps {
 export default function ChampionModal({
   championCounters,
   championSynergy,
-  championGoodAgainst,
+  championGoodAgainst
 }: ChampionModalProps) {
   return (
     <div className="flex flex-col gap-6 bg-primary text-secondary p-6">
       <div>
-        <p className="pb-6">Counters</p>
+        <p className="pb-6">Forte VS</p>
         <div className="flex gap-2">
-          {championCounters.map((champion) => (
+          {championGoodAgainst.map(champion => (
             <div key={champion.name}>
               <Image
                 alt="imagem do campeão"
@@ -30,9 +30,9 @@ export default function ChampionModal({
       </div>
 
       <div>
-        <p className="pb-6">Bons Contra</p>
+        <p className="pb-6">Fraco VS</p>
         <div className="flex gap-2">
-          {championGoodAgainst.map((champion) => (
+          {championCounters.map(champion => (
             <div key={champion.name}>
               <Image
                 alt="imagem do campeão"
@@ -49,7 +49,7 @@ export default function ChampionModal({
       <div>
         <p className="pb-6">Sinergia</p>
         <div className="flex gap-2">
-          {championSynergy.map((champion) => (
+          {championSynergy.map(champion => (
             <div key={champion.name}>
               <Image
                 alt="imagem do campeão"
