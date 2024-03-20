@@ -9,6 +9,7 @@ export default function BackgroundImage() {
       <Image
         alt="background"
         src={freljord}
+        priority
         className="w-full h-screen -z-10"
       />
     </div>
