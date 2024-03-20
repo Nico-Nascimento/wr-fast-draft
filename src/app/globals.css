@@ -51,34 +51,9 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border scrollbar-thin scrollbar-track-[#070d12] scrollbar-thumb-[#047bcf];
   }
   body {
     @apply bg-background text-foreground;
   }
-}
-
-.background {
-  background-image: url(../public/images/backgrounds/freljord.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #047bcf #070d12;
-}
-
-*::-webkit-scrollbar {
-  width: 12px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #070d12;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #047bcf;
-  border-radius: 20px;
-  border: 3px solid #070d12;
 }
