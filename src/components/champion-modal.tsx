@@ -1,15 +1,11 @@
-import Image, { StaticImageData } from 'next/image';
+import { ChampionModalType } from '@/types/champion';
+import Image from 'next/image';
 
-interface ChampionModalProps {
-  championCounters: { name: string; image: StaticImageData }[];
-  championGoodAgainst: { name: string; image: StaticImageData }[];
-  championSynergy: { name: string; image: StaticImageData }[];
-}
 export default function ChampionModal({
-  championCounters,
-  championSynergy,
-  championGoodAgainst
-}: ChampionModalProps) {
+  championGoodAgainst,
+  championWeakAgainst,
+  championSynergy
+}: ChampionModalType) {
   return (
     <div className="flex flex-col gap-6 bg-primary text-secondary p-6">
       <div>
@@ -18,10 +14,9 @@ export default function ChampionModal({
           {championGoodAgainst.map(champion => (
             <div key={champion.name}>
               <Image
-                alt="imagem do campeão"
+                alt={champion.name}
                 src={champion.image}
-                height={1000}
-                width={1000}
+                priority
                 className="w-20 h-20 rounded-lg"
               />
             </div>
@@ -32,13 +27,12 @@ export default function ChampionModal({
       <div>
         <p className="pb-6">Fraco VS</p>
         <div className="flex gap-2">
-          {championCounters.map(champion => (
+          {championWeakAgainst.map(champion => (
             <div key={champion.name}>
               <Image
-                alt="imagem do campeão"
+                alt={champion.name}
                 src={champion.image}
-                height={1000}
-                width={1000}
+                priority
                 className="w-20 h-20 rounded-lg"
               />
             </div>
@@ -52,10 +46,9 @@ export default function ChampionModal({
           {championSynergy.map(champion => (
             <div key={champion.name}>
               <Image
-                alt="imagem do campeão"
+                alt={champion.name}
                 src={champion.image}
-                height={1000}
-                width={1000}
+                priority
                 className="w-20 h-20 rounded-lg"
               />
             </div>

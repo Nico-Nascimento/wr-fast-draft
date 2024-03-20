@@ -1,4 +1,4 @@
-import Champions from "@/components/champions";
+import Champions from '@/components/champions';
 
 export default function Home() {
   return (
