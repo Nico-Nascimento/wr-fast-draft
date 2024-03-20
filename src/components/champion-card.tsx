@@ -15,10 +15,10 @@ export default function ChampionCard({
   const [cardFooterEffect, setCardFooterEffect] = useState('');
 
   function mouseEnterHandler() {
-    setCardHeaderEffect('w-[95%]');
+    setCardHeaderEffect('w-[90%] md:w-[93%] lg:w-[95%]');
     setCardEffect('rounded-b-none');
     setCardImageEffect('scale-110');
-    setCardFooterEffect('pl-5');
+    setCardFooterEffect('pl-5 bg-[#141E37]');
   }
 
   function mouseLeaveHandler() {
@@ -34,19 +34,19 @@ export default function ChampionCard({
       onMouseLeave={() => mouseLeaveHandler()}
       className="cursor-pointer"
     >
-      <div className="flex w-48 h-1 justify-center -z-10">
+      <div className="flex w-28 h-1 justify-center -z-10 md:w-32 lg:w-48">
         <div
-          className={`relative flex bg-secondary w-20 h-1 duration-300 ${cardHeaderEffect}`}
+          className={`relative flex bg-[#32C8FF] w-16 h-1 duration-300 md:w-18 lg:w-20 ${cardHeaderEffect}`}
         >
-          <div className="absolute -left-[0.1950rem] h-2 bg-secondary w-1 rotate-45 rounded-bl-[1.3rem]" />
-          <div className="absolute -right-[0.1950rem] h-2 bg-secondary w-1 rotate-[135deg] rounded-tl-[1.3rem]" />
+          <div className="absolute -left-[0.1950rem] h-2 bg-[#32C8FF] w-1 rotate-45 rounded-bl-[1.3rem] duration-300" />
+          <div className="absolute -right-[0.1950rem] h-2 bg-[#32C8FF] w-1 rotate-[135deg] rounded-tl-[1.3rem] duration-300" />
         </div>
       </div>
 
       <Card
-        className={`relative w-48 h-72 rounded-b-xl rounded-t-none border-none z-10 overflow-y-hidden duration-300 ${cardEffect}`}
+        className={`relative w-28 h-48 rounded-b-xl rounded-t-none border-none z-10 overflow-y-hidden duration-300 md:w-32 md:h-52 lg:w-48 lg:h-72 ${cardEffect}`}
       >
-        <CardContent className="h-[85%] overflow-hidden">
+        <CardContent className="overflow-hidden h-[80%] md:h-[80%] lg:h-[85%]">
           <Image
             alt={championName}
             src={championImage}
@@ -55,10 +55,10 @@ export default function ChampionCard({
           />
         </CardContent>
 
-        <CardFooter className="bg-secondary h-[15%] text-primary">
-          <h2
-            className={`p-2 text-xl font-bold tracking-tighter -skew-x-[10deg] duration-300 ${cardFooterEffect}`}
-          >
+        <CardFooter
+          className={`bg-[#32C8FF] h-[20%] text-secondary text-xs ${cardFooterEffect} duration-300 md:h-[20%] lg:text-base lg:h-[15%]`}
+        >
+          <h2 className="p-2 font-bold tracking-tighter -skew-x-[10deg] duration-300">
             {championName.toUpperCase()}
           </h2>
         </CardFooter>
