@@ -1,25 +1,15 @@
-import {
-  StaticImageData,
-  StaticImport
-} from 'next/dist/shared/lib/get-img-props';
 import { Dialog, DialogContent, DialogTrigger } from './ui/dialog';
 import ChampionModal from './champion-modal';
 import ChampionCard from './champion-card';
+import { ChampionType } from '@/types/champion';
 
-interface ChampionProps {
-  championImage: string | StaticImport;
-  championName: string;
-  championCounters: { name: string; image: StaticImageData }[];
-  championGoodAgainst: { name: string; image: StaticImageData }[];
-  championSynergy: { name: string; image: StaticImageData }[];
-}
 export default function Champion({
-  championImage,
   championName,
-  championCounters,
+  championImage,
   championGoodAgainst,
+  championWeakAgainst,
   championSynergy
-}: ChampionProps) {
+}: ChampionType) {
   return (
     <Dialog>
       <DialogTrigger>
@@ -31,8 +21,8 @@ export default function Champion({
 
       <DialogContent className="overflow-hidden">
         <ChampionModal
-          championCounters={championCounters}
           championGoodAgainst={championGoodAgainst}
+          championWeakAgainst={championWeakAgainst}
           championSynergy={championSynergy}
         />
       </DialogContent>

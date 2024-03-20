@@ -7,10 +7,10 @@ export default function Champions() {
       {champions.map(champion => (
         <Champion
           key={champion.name}
-          championImage={champion.image}
           championName={champion.name}
-          championCounters={champion.counters}
+          championImage={champion.image}
           championGoodAgainst={champion.goodAgainst}
+          championWeakAgainst={champion.weakAgainst}
           championSynergy={champion.synergy}
         />
       ))}

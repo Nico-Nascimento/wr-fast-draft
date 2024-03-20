@@ -2,18 +2,13 @@
 
 import Image from 'next/image';
 import { Card, CardContent, CardFooter } from './ui/card';
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 import { useState } from 'react';
-
-interface ChampionProps {
-  championImage: string | StaticImport;
-  championName: string;
-}
+import { ChampionInfoType } from '@/types/champion';
 
 export default function ChampionCard({
   championImage,
   championName
-}: ChampionProps) {
+}: ChampionInfoType) {
   const [cardHeaderEffect, setCardHeaderEffect] = useState('');
   const [cardEffect, setCardEffect] = useState('');
   const [cardImageEffect, setCardImageEffect] = useState('');
@@ -53,10 +48,9 @@ export default function ChampionCard({
       >
         <CardContent className="h-[85%] overflow-hidden">
           <Image
-            alt="imagem do campeão"
+            alt={championName}
             src={championImage}
-            height={1000}
-            width={1000}
+            priority
             className={`w-full h-full duration-300 ${cardImageEffect}`}
           />
         </CardContent>
