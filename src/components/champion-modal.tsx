@@ -1,6 +1,5 @@
 import { ChampionModalType } from '@/types/champion';
 import Image from 'next/image';
-import freljordLogo from '@/public/images/backgrounds/freljord-modal.jpg'
 
 export default function ChampionModal({
   championGoodAgainst,
@@ -8,50 +7,67 @@ export default function ChampionModal({
   championSynergy
 }: ChampionModalType) {
   return (
-    <div className="flex bg-freljord-logo flex-col gap-6 text-freljord-dark text-lg font-semibold p-6">
-      <div className='flex flex-col gap-2'>
-        <p className='box'>Forte VS</p>
-        <span className='block h-1 bg-freljord-dark w-full'></span>
-        <div className="flex gap-2">
+    <div className="flex bg-freljord-logo flex-col gap-6 text-freljord text-freljord-dark text-lg p-6">
+      <div className="flex flex-col gap-2">
+        <p>Forte VS</p>
+
+        <span className="block w-full h-1 bg-freljord-dark rounded-full" />
+
+        <div className="flex flex-wrap gap-2">
           {championGoodAgainst.map(champion => (
-            <div key={champion.name}>
+            <div
+              key={champion.name}
+              className="w-20 h-20 overflow-hidden border-[3px] border-freljord-dark rounded-lg"
+            >
               <Image
                 alt={champion.name}
                 src={champion.image}
                 priority
-                className="w-20 h-20 rounded-lg"
+                className="w-full h-full duration-300 hover:scale-110"
               />
             </div>
           ))}
         </div>
       </div>
 
-      <div>
-        <p className="pb-6">Fraco VS</p>
-        <div className="flex gap-2">
+      <div className="flex flex-col gap-2">
+        <p>Fraco VS</p>
+
+        <span className="block w-full h-1 bg-freljord-dark rounded-full" />
+
+        <div className="flex flex-wrap gap-2">
           {championWeakAgainst.map(champion => (
-            <div key={champion.name}>
+            <div
+              key={champion.name}
+              className="w-20 h-20 overflow-hidden border-[3px] border-freljord-dark rounded-lg"
+            >
               <Image
                 alt={champion.name}
                 src={champion.image}
                 priority
-                className="w-20 h-20 rounded-lg"
+                className="w-full h-full duration-300 hover:scale-110"
               />
             </div>
           ))}
         </div>
       </div>
 
-      <div>
-        <p className="pb-6">Sinergia</p>
-        <div className="flex gap-2">
+      <div className="flex flex-col gap-2">
+        <p>Sinergia</p>
+
+        <span className="block w-full h-1 bg-freljord-dark rounded-full" />
+
+        <div className="flex flex-wrap gap-2">
           {championSynergy.map(champion => (
-            <div key={champion.name}>
+            <div
+              key={champion.name}
+              className="w-20 h-20 overflow-hidden border-[3px] border-freljord-dark rounded-lg"
+            >
               <Image
                 alt={champion.name}
                 src={champion.image}
                 priority
-                className="w-20 h-20 rounded-lg"
+                className="w-full h-full duration-300 hover:scale-110"
               />
             </div>
           ))}

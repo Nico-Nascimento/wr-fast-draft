@@ -57,17 +57,38 @@
     @apply bg-background text-foreground;
   }
   .bg-freljord {
-    @apply bg-[#32C8FF] 
+    @apply bg-[#32C8FF];
   }
   .bg-freljord-dark {
-    @apply bg-[#141E37]
+    @apply bg-[#141E37];
   }
   .text-freljord {
-    @apply text-[#32C8FF] 
+    @apply text-[#32C8FF];
   }
   .text-freljord-dark {
-    @apply text-[#141E37]
+    @apply text-[#141E37];
   }
+  .border-freljord {
+    @apply border-[#32C8FF];
+  }
+  .border-freljord-dark {
+    @apply border-[#141E37];
+  }
+}
+
+@font-face {
+  font-family: freljord;
+  src: url(../public/fonts/Ice\ kingdom\ -\ Bold\ -\ Por\ Kustren.ttf);
+}
+
+.text-freljord {
+  font-family: freljord;
+}
+
+.bg-freljord-home {
+  background-image: url(../public/images/backgrounds/freljord.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .bg-freljord-logo {
