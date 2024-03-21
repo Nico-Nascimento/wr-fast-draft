@@ -100,6 +100,6 @@
 .bg-freljord-logo {
   background-image: url(../public/images/backgrounds/freljord-modal.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   z-index: -20;
 }
