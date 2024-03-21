@@ -56,9 +56,9 @@ export default function ChampionCard({
         </CardContent>
 
         <CardFooter
-          className={`bg-freljord h-[20%] text-secondary text-xs ${cardFooterEffect} duration-300 md:h-[20%] lg:text-base lg:h-[15%]`}
+          className={`bg-freljord h-[20%] text-freljord text-secondary text-xs ${cardFooterEffect} duration-300 md:h-[20%] lg:text-base lg:h-[15%]`}
         >
-          <h2 className="p-2 font-bold tracking-tighter -skew-x-[10deg] duration-300">
+          <h2 className="p-2 -skew-x-[10deg] duration-300">
             {championName.toUpperCase()}
           </h2>
         </CardFooter>

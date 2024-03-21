@@ -1,18 +1,9 @@
-import Image from 'next/image';
-import freljord from '@/public/images/backgrounds/freljord.jpg';
-
-
 export default function BackgroundImage() {
   return (
     <div className="fixed w-full h-screen">
-      <div className="absolute w-full h-screen bg-gradient-to-b from-black/80 to-transparent" />
+      <div className="absolute w-full h-screen bg-gradient-to-b from-black to-transparent" />
 
-      <Image
-        alt="background"
-        src={freljord}
-        priority
-        className="w-full h-screen -z-10"
-      />
+      <div className="bg-freljord-home w-full h-full -z-10" />
     </div>
   );
 }
