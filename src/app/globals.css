@@ -56,13 +56,19 @@
   body {
     @apply bg-background text-foreground;
   }
+  .text-gradient-freljord {
+    @apply bg-gradient-to-r from-[#32C8FF] from-20% to-secondary bg-clip-text text-transparent;
+  }
+  .bg-gradient-freljord {
+    @apply bg-gradient-to-l from-[#32C8FF] from-20% to-secondary;
+  }
   .bg-freljord {
     @apply bg-[#32C8FF];
   }
   .bg-freljord-dark {
     @apply bg-[#141E37];
   }
-  .text-freljord {
+  .text-freljord-light {
     @apply text-[#32C8FF];
   }
   .text-freljord-dark {
@@ -95,4 +101,5 @@
   background-image: url(../public/images/backgrounds/freljord-modal.jpg);
   background-size: cover;
   background-position: center;
+  z-index: -20;
 }

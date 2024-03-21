@@ -7,7 +7,9 @@ export default function ChampionModal({
   championSynergy
 }: ChampionModalType) {
   return (
-    <div className="flex bg-freljord-logo flex-col gap-6 text-freljord text-freljord-dark text-lg p-6">
+    <div className="relative flex bg-freljord-logo flex-col gap-6 text-freljord text-freljord-dark text-lg p-6">
+      <div className="absolute top-0 left-0 w-full h-full bg-black/25 -z-10" />
+
       <div className="flex flex-col gap-2">
         <p>Forte VS</p>
 
