@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import freljord from '@/public/images/backgrounds/freljord.jpg';
 
+
 export default function BackgroundImage() {
   return (
     <div className="fixed w-full h-screen">

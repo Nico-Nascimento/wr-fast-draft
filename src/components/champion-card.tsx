@@ -18,7 +18,7 @@ export default function ChampionCard({
     setCardHeaderEffect('w-[90%] md:w-[93%] lg:w-[95%]');
     setCardEffect('rounded-b-none');
     setCardImageEffect('scale-110');
-    setCardFooterEffect('pl-5 bg-[#141E37]');
+    setCardFooterEffect('pl-5 bg-freljord-dark');
   }
 
   function mouseLeaveHandler() {
@@ -36,10 +36,10 @@ export default function ChampionCard({
     >
       <div className="flex w-28 h-1 justify-center -z-10 md:w-32 lg:w-48">
         <div
-          className={`relative flex bg-[#32C8FF] w-16 h-1 duration-300 md:w-18 lg:w-20 ${cardHeaderEffect}`}
+          className={`relative flex bg-freljord w-16 h-1 duration-300 md:w-18 lg:w-20 ${cardHeaderEffect}`}
         >
-          <div className="absolute -left-[0.1950rem] h-2 bg-[#32C8FF] w-1 rotate-45 rounded-bl-[1.3rem] duration-300" />
-          <div className="absolute -right-[0.1950rem] h-2 bg-[#32C8FF] w-1 rotate-[135deg] rounded-tl-[1.3rem] duration-300" />
+          <div className="absolute -left-[0.1950rem] h-2 bg-freljord w-1 rotate-45 rounded-bl-[1.3rem] duration-300" />
+          <div className="absolute -right-[0.1950rem] h-2 bg-freljord w-1 rotate-[135deg] rounded-tl-[1.3rem] duration-300" />
         </div>
       </div>
 
@@ -56,7 +56,7 @@ export default function ChampionCard({
         </CardContent>
 
         <CardFooter
-          className={`bg-[#32C8FF] h-[20%] text-secondary text-xs ${cardFooterEffect} duration-300 md:h-[20%] lg:text-base lg:h-[15%]`}
+          className={`bg-freljord h-[20%] text-secondary text-xs ${cardFooterEffect} duration-300 md:h-[20%] lg:text-base lg:h-[15%]`}
         >
           <h2 className="p-2 font-bold tracking-tighter -skew-x-[10deg] duration-300">
             {championName.toUpperCase()}

@@ -1,5 +1,6 @@
 import { ChampionModalType } from '@/types/champion';
 import Image from 'next/image';
+import freljordLogo from '@/public/images/backgrounds/freljord-modal.jpg'
 
 export default function ChampionModal({
   championGoodAgainst,
@@ -7,9 +8,10 @@ export default function ChampionModal({
   championSynergy
 }: ChampionModalType) {
   return (
-    <div className="flex flex-col gap-6 bg-primary text-secondary p-6">
-      <div>
-        <p className="pb-6">Forte VS</p>
+    <div className="flex bg-freljord-logo flex-col gap-6 text-freljord-dark text-lg font-semibold p-6">
+      <div className='flex flex-col gap-2'>
+        <p className='box'>Forte VS</p>
+        <span className='block h-1 bg-freljord-dark w-full'></span>
         <div className="flex gap-2">
           {championGoodAgainst.map(champion => (
             <div key={champion.name}>

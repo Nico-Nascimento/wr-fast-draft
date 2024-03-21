@@ -19,7 +19,7 @@ export default function Champion({
         />
       </DialogTrigger>
 
-      <DialogContent className="overflow-hidden">
+      <DialogContent className="overflow-hidden border-none max-h-[512px]">
         <ChampionModal
           championGoodAgainst={championGoodAgainst}
           championWeakAgainst={championWeakAgainst}

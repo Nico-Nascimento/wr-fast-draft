@@ -56,4 +56,22 @@
   body {
     @apply bg-background text-foreground;
   }
+  .bg-freljord {
+    @apply bg-[#32C8FF] 
+  }
+  .bg-freljord-dark {
+    @apply bg-[#141E37]
+  }
+  .text-freljord {
+    @apply text-[#32C8FF] 
+  }
+  .text-freljord-dark {
+    @apply text-[#141E37]
+  }
+}
+
+.bg-freljord-logo {
+  background-image: url(../public/images/backgrounds/freljord-modal.jpg);
+  background-size: cover;
+  background-position: center;
 }
