@@ -11,10 +11,7 @@ export interface ChampionType {
   championSynergy: { name: string; image: StaticImageData }[];
 }
 
-export type ChampionModalType = Omit<
-  ChampionType,
-  'championName' | 'championImage'
->;
+export type ChampionModalType = Omit<ChampionType, 'championImage'>;
 
 export type ChampionInfoType = Pick<
   ChampionType,

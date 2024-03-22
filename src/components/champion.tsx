@@ -21,6 +21,7 @@ export default function Champion({
 
       <DialogContent className="overflow-hidden overflow-y-scroll scrollbar-none border-freljord rounded-lg max-h-[512px] max-w-xs md:max-w-xl lg:max-w-3xl">
         <ChampionModal
+          championName={championName}
           championGoodAgainst={championGoodAgainst}
           championWeakAgainst={championWeakAgainst}
           championSynergy={championSynergy}

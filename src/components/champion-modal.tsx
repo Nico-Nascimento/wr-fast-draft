@@ -2,6 +2,7 @@ import { ChampionModalType } from '@/types/champion';
 import Image from 'next/image';
 
 export default function ChampionModal({
+  championName,
   championGoodAgainst,
   championWeakAgainst,
   championSynergy
@@ -9,6 +10,8 @@ export default function ChampionModal({
   return (
     <div className="relative flex bg-freljord-logo flex-col gap-6 text-freljord text-freljord-dark text-lg p-6">
       <div className="absolute top-0 left-0 w-full h-full bg-black/25 -z-10" />
+
+      <div className="m-auto text-2xl">{championName}</div>
 
       <div className="flex flex-col gap-2">
         <p>Forte VS</p>
