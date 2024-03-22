@@ -1,13 +1,26 @@
 import { champions } from '@/constants/champions';
 import Champion from './champion';
+import Link from 'next/link';
 
 export default function ChampionsAlphabeticalOrder() {
   const letters = 'ABCDEFGHIJKLMNOPRSTUVWXYZ'.split('');
 
   return (
     <section className="relative w-full">
+      <div className="flex w-full max-w-fit m-auto py-10 text-lg gap-[3px] md:gap-2 md:text-xl lg:gap-4 lg:text-3xl">
+        {letters.map(letter => (
+          <Link
+            key={letter}
+            href={`#${letter}`}
+            className="text-gradient-freljord duration-300 hover:scale-125"
+          >
+            {letter}
+          </Link>
+        ))}
+      </div>
+
       {letters.map(letter => (
-        <div key={letter}>
+        <div key={letter} id={letter}>
           <div className="m-auto max-w-[360px] md:max-w-xl lg:px-48 lg:max-w-[1536px]">
             <div className="-mb-1 text-gradient-freljord text-2xl md:text-3xl lg:text-4xl">
               {letter}
