@@ -239,6 +239,14 @@ export const champions = [
       {
         name: 'Jax',
         image: imgJaxFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
       }
     ],
     goodAgainst: [
@@ -253,6 +261,22 @@ export const champions = [
       {
         name: 'Garen',
         image: imgGarenFace
+      },
+      {
+        name: 'Kayle',
+        image: imgKayleFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
+      },
+      {
+        name: 'Urgot',
+        image: imgUrgotFace
+      },
+      {
+        name: 'Ornn',
+        image: imgOrnnFace
       }
     ],
     synergy: [
@@ -281,6 +305,10 @@ export const champions = [
       {
         name: 'Diana',
         image: imgDianaFace
+      },
+      {
+        name: 'Annie',
+        image: imgAnnieFace
       }
     ],
     goodAgainst: [
@@ -295,6 +323,14 @@ export const champions = [
       {
         name: 'Ziggs',
         image: imgZiggsFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
       }
     ],
     synergy: [
@@ -323,6 +359,14 @@ export const champions = [
       {
         name: 'Pantheon',
         image: imgPantheonFace
+      },
+      {
+        name: 'Annie',
+        image: imgAnnieFace
+      },
+      {
+        name: 'Ahri',
+        image: imgAhriFace
       }
     ],
     goodAgainst: [
@@ -337,6 +381,14 @@ export const champions = [
       {
         name: 'Kayle',
         image: imgKayleFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
+      },
+      {
+        name: 'Ekko',
+        image: imgEkkoFace
       }
     ],
     synergy: [
@@ -365,6 +417,14 @@ export const champions = [
       {
         name: 'Morgana',
         image: imgMorganaFace
+      },
+      {
+        name: 'Janna',
+        image: imgJannaFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
       }
     ],
     goodAgainst: [
@@ -379,6 +439,14 @@ export const champions = [
       {
         name: 'Thresh',
         image: imgThreshFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Leona',
+        image: imgLeonaFace
       }
     ],
     synergy: [
@@ -411,6 +479,10 @@ export const champions = [
       {
         name: 'Vi',
         image: imgViFace
+      },
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
       }
     ],
     goodAgainst: [
@@ -425,6 +497,10 @@ export const champions = [
       {
         name: 'Wukong',
         image: imgWukongFace
+      },
+      {
+        name: 'Rammus',
+        image: imgRammusFace
       }
     ],
     synergy: [
@@ -461,6 +537,10 @@ export const champions = [
       {
         name: 'Lux',
         image: imgLuxFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
       }
     ],
     goodAgainst: [
@@ -475,6 +555,14 @@ export const champions = [
       {
         name: 'Akali',
         image: imgAkaliFace
+      },
+      {
+        name: 'Katarina',
+        image: imgKatarinaFace
+      },
+      {
+        name: 'Corki',
+        image: imgCorkiFace
       }
     ],
     synergy: [
@@ -521,6 +609,10 @@ export const champions = [
       {
         name: 'Corki',
         image: imgCorkiFace
+      },
+      {
+        name: 'Ezreal',
+        image: imgEzrealFace
       }
     ],
     synergy: [
@@ -553,6 +645,14 @@ export const champions = [
       {
         name: 'Zed',
         image: imgZedFace
+      },
+      {
+        name: 'Galio',
+        image: imgGalioFace
+      },
+      {
+        name: 'Lucian',
+        image: imgLucianFace
       }
     ],
     goodAgainst: [
@@ -585,20 +685,6 @@ export const champions = [
     image: imgAkshan,
     weakAgainst: [
       {
-        name: 'Ahri',
-        image: imgAhriFace
-      },
-      {
-        name: 'Orianna',
-        image: imgOriannaFace
-      },
-      {
-        name: 'Akali',
-        image: imgAkaliFace
-      }
-    ],
-    goodAgainst: [
-      {
         name: 'Zed',
         image: imgZedFace
       },
@@ -609,6 +695,44 @@ export const champions = [
       {
         name: 'Yasuo',
         image: imgYasuoFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Veigar',
+        image: imgVeigarFace
+      }
+    ],
+    goodAgainst: [
+      {
+        name: 'Ahri',
+        image: imgAhriFace
+      },
+      {
+        name: 'Orianna',
+        image: imgOriannaFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Corki',
+        image: imgCorkiFace
+      },
+      {
+        name: 'Galio',
+        image: imgGalioFace
+      },
+      {
+        name: 'Singed',
+        image: imgSingedFace
+      },
+      {
+        name: 'Vladimir',
+        image: imgVladimirFace
       }
     ],
     synergy: [
@@ -637,6 +761,14 @@ export const champions = [
       {
         name: 'Morgana',
         image: imgMorganaFace
+      },
+      {
+        name: 'Leona',
+        image: imgLeonaFace
+      },
+      {
+        name: 'Rakan',
+        image: imgRakanFace
       }
     ],
     goodAgainst: [
@@ -651,6 +783,14 @@ export const champions = [
       {
         name: 'Soraka',
         image: imgSorakaFace
+      },
+      {
+        name: 'Senna',
+        image: imgSennaFace
+      },
+      {
+        name: 'Zyra',
+        image: imgZyraFace
       }
     ],
     synergy: [
@@ -683,6 +823,18 @@ export const champions = [
       {
         name: 'Zed',
         image: imgZedFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
       }
     ],
     goodAgainst: [
@@ -697,6 +849,14 @@ export const champions = [
       {
         name: 'Corki',
         image: imgCorkiFace
+      },
+      {
+        name: 'Teemo',
+        image: imgTeemoFace
+      },
+      {
+        name: 'Kayle',
+        image: imgKayleFace
       }
     ],
     synergy: [
@@ -725,6 +885,14 @@ export const champions = [
       {
         name: 'Morgana',
         image: imgMorganaFace
+      },
+      {
+        name: 'Soraka',
+        image: imgSorakaFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
       }
     ],
     goodAgainst: [
@@ -739,6 +907,10 @@ export const champions = [
       {
         name: 'Thresh',
         image: imgThreshFace
+      },
+      {
+        name: 'Nautilus',
+        image: imgNautilusFace
       }
     ],
     synergy: [
@@ -779,6 +951,10 @@ export const champions = [
         image: imgKaiSaFace
       },
       {
+        name: 'Tristana',
+        image: imgTristanaFace
+      },
+      {
         name: 'Draven',
         image: imgDravenFace
       }
@@ -813,6 +989,22 @@ export const champions = [
       {
         name: 'Jayce',
         image: imgJayceFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
       }
     ],
     goodAgainst: [
@@ -827,6 +1019,34 @@ export const champions = [
       {
         name: 'Dr. Mundo',
         image: imgDrMundoFace
+      },
+      {
+        name: 'Jarvan',
+        image: imgJarvanFace
+      },
+      {
+        name: 'Wukong',
+        image: imgWukongFace
+      },
+      {
+        name: 'Shen',
+        image: imgShenFace
+      },
+      {
+        name: 'Kennen',
+        image: imgKennenFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Ornn',
+        image: imgOrnnFace
       }
     ],
     synergy: [
@@ -855,6 +1075,18 @@ export const champions = [
       {
         name: 'Pantheon',
         image: imgPantheonFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
+      },
+      {
+        name: 'Akshan',
+        image: imgAkshanFace
       }
     ],
     goodAgainst: [
@@ -869,6 +1101,14 @@ export const champions = [
       {
         name: 'Ziggs',
         image: imgZiggsFace
+      },
+      {
+        name: 'Galio',
+        image: imgGalioFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
       }
     ],
     synergy: [
@@ -897,6 +1137,14 @@ export const champions = [
       {
         name: 'Wukong',
         image: imgWukongFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
       }
     ],
     goodAgainst: [
@@ -911,6 +1159,26 @@ export const champions = [
       {
         name: 'Yasuo',
         image: imgYasuoFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
+      },
+      {
+        name: 'Ornn',
+        image: imgOrnnFace
       }
     ],
     synergy: [
@@ -939,6 +1207,18 @@ export const champions = [
       {
         name: 'Irelia',
         image: imgIreliaFace
+      },
+      {
+        name: 'Jarvan',
+        image: imgJarvanFace
+      },
+      {
+        name: 'XinZhao',
+        image: imgXinZhaoFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
       }
     ],
     goodAgainst: [
@@ -953,6 +1233,30 @@ export const champions = [
       {
         name: 'Evelynn',
         image: imgEvelynnFace
+      },
+      {
+        name: 'Katarina',
+        image: imgKatarinaFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
+      },
+      {
+        name: 'Aurelion Sol',
+        image: imgAurelionSolFace
+      },
+      {
+        name: 'Orianna',
+        image: imgOriannaFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Rammus',
+        image: imgRammusFace
       }
     ],
     synergy: [
@@ -985,6 +1289,22 @@ export const champions = [
       {
         name: 'Irelia',
         image: imgIreliaFace
+      },
+      {
+        name: 'Shen',
+        image: imgShenFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Vayne',
+        image: imgVayneFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
       }
     ],
     goodAgainst: [
@@ -997,8 +1317,12 @@ export const champions = [
         image: imgAkaliFace
       },
       {
-        name: 'Evelynn',
-        image: imgEvelynnFace
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
       }
     ],
     synergy: [
@@ -1041,6 +1365,14 @@ export const champions = [
       {
         name: 'Jinx',
         image: imgJinxFace
+      },
+      {
+        name: 'Akshan',
+        image: imgAkshanFace
+      },
+      {
+        name: 'Sivir',
+        image: imgSivirFace
       }
     ],
     synergy: [
@@ -1073,6 +1405,18 @@ export const champions = [
       {
         name: 'Akali',
         image: imgAkaliFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
+      },
+      {
+        name: 'Talon',
+        image: imgTalonFace
       }
     ],
     goodAgainst: [
@@ -1087,6 +1431,18 @@ export const champions = [
       {
         name: 'Veigar',
         image: imgVeigarFace
+      },
+      {
+        name: 'Lux',
+        image: imgLuxFace
+      },
+      {
+        name: 'Ziggs',
+        image: imgZiggsFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
       }
     ],
     synergy: [
@@ -1119,6 +1475,14 @@ export const champions = [
       {
         name: 'Rengar',
         image: imgRengarFace
+      },
+      {
+        name: 'Vi',
+        image: imgViFace
+      },
+      {
+        name: 'Nunu',
+        image: imgNunuFace
       }
     ],
     goodAgainst: [
@@ -1133,6 +1497,10 @@ export const champions = [
       {
         name: 'Rammus',
         image: imgRammusFace
+      },
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
       }
     ],
     synergy: [
@@ -1165,6 +1533,14 @@ export const champions = [
       {
         name: 'Miss Fortune',
         image: imgMissFortuneFace
+      },
+      {
+        name: 'Ashe',
+        image: imgAsheFace
+      },
+      {
+        name: 'Vayne',
+        image: imgVayneFace
       }
     ],
     goodAgainst: [
@@ -1211,6 +1587,10 @@ export const champions = [
       {
         name: 'Hecarim',
         image: imgHecarimFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
       }
     ],
     goodAgainst: [
@@ -1257,6 +1637,10 @@ export const champions = [
       {
         name: 'Jayce',
         image: imgJayceFace
+      },
+      {
+        name: 'Kennen',
+        image: imgKennenFace
       }
     ],
     goodAgainst: [
@@ -1265,12 +1649,40 @@ export const champions = [
         image: imgGarenFace
       },
       {
-        name: 'Fiora',
-        image: imgFioraFace
+        name: 'Akali',
+        image: imgAkaliFace
       },
       {
         name: 'Riven',
         image: imgRivenFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Ornn',
+        image: imgOrnnFace
       }
     ],
     synergy: [
@@ -1299,6 +1711,10 @@ export const champions = [
       {
         name: 'Lee Sin',
         image: imgLeeSinFace
+      },
+      {
+        name: 'Vladimir',
+        image: imgVladimirFace
       }
     ],
     goodAgainst: [
@@ -1313,6 +1729,14 @@ export const champions = [
       {
         name: 'Pantheon',
         image: imgPantheonFace
+      },
+      {
+        name: 'Ahri',
+        image: imgAhriFace
+      },
+      {
+        name: 'Corki',
+        image: imgCorkiFace
       }
     ],
     synergy: [
@@ -1343,8 +1767,24 @@ export const champions = [
         image: imgIreliaFace
       },
       {
-        name: 'Morgana',
-        image: imgMorganaFace
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Lucian',
+        image: imgLucianFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
       }
     ],
     goodAgainst: [
@@ -1357,8 +1797,16 @@ export const champions = [
         image: imgFizzFace
       },
       {
-        name: 'Rakan',
-        image: imgRakanFace
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
+      },
+      {
+        name: 'Aurelion Sol',
+        image: imgAurelionSolFace
       }
     ],
     synergy: [
@@ -1391,6 +1839,18 @@ export const champions = [
       {
         name: 'Vayne',
         image: imgVayneFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Teemo',
+        image: imgTeemoFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
       }
     ],
     goodAgainst: [
@@ -1405,6 +1865,18 @@ export const champions = [
       {
         name: 'Yasuo',
         image: imgYasuoFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
       }
     ],
     synergy: [
@@ -1433,6 +1905,22 @@ export const champions = [
       {
         name: 'Olaf',
         image: imgOlafFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
+      },
+      {
+        name: 'Janna',
+        image: imgJannaFace
+      },
+      {
+        name: 'Lulu',
+        image: imgLuluFace
       }
     ],
     goodAgainst: [
@@ -1447,6 +1935,22 @@ export const champions = [
       {
         name: 'Master Yi',
         image: imgMasterYiFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
+      },
+      {
+        name: 'Rakan',
+        image: imgRakanFace
+      },
+      {
+        name: 'Alistar',
+        image: imgAlistarFace
+      },
+      {
+        name: 'Leona',
+        image: imgLeonaFace
       }
     ],
     synergy: [
@@ -1475,6 +1979,10 @@ export const champions = [
       {
         name: 'Wukong',
         image: imgWukongFace
+      },
+      {
+        name: 'Rammus',
+        image: imgRammusFace
       }
     ],
     goodAgainst: [
@@ -1489,6 +1997,14 @@ export const champions = [
       {
         name: 'Jarvan',
         image: imgJarvanFace
+      },
+      {
+        name: 'Vi',
+        image: imgViFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
       }
     ],
     synergy: [
@@ -1517,6 +2033,22 @@ export const champions = [
       {
         name: 'Jax',
         image: imgJaxFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
       }
     ],
     goodAgainst: [
@@ -1531,6 +2063,22 @@ export const champions = [
       {
         name: 'Sion',
         image: imgSionFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Ornn',
+        image: imgOrnnFace
+      },
+      {
+        name: 'Volibear',
+        image: imgVolibearFace
       }
     ],
     synergy: [
@@ -1559,6 +2107,10 @@ export const champions = [
       {
         name: 'Gragas',
         image: imgGragasFace
+      },
+      {
+        name: 'Xin Zhao',
+        image: imgXinZhaoFace
       }
     ],
     goodAgainst: [
@@ -1573,6 +2125,10 @@ export const champions = [
       {
         name: 'Amumu',
         image: imgAmumuFace
+      },
+      {
+        name: 'Kayn',
+        image: imgKaynFace
       }
     ],
     synergy: [
@@ -1601,6 +2157,30 @@ export const champions = [
       {
         name: 'Akali',
         image: imgAkaliFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
+      },
+      {
+        name: 'Wukong',
+        image: imgWukongFace
       }
     ],
     goodAgainst: [
@@ -1615,6 +2195,34 @@ export const champions = [
       {
         name: 'Lux',
         image: imgLuxFace
+      },
+      {
+        name: 'Kayle',
+        image: imgKayleFace
+      },
+      {
+        name: 'Garen',
+        image: imgGarenFace
+      },
+      {
+        name: 'Kennen',
+        image: imgKennenFace
+      },
+      {
+        name: 'Aatrox',
+        image: imgAatroxFace
+      },
+      {
+        name: 'Teemo',
+        image: imgTeemoFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
       }
     ],
     synergy: [
@@ -1647,6 +2255,18 @@ export const champions = [
       {
         name: 'Blitzcrank',
         image: imgBlitzcrankFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
+      },
+      {
+        name: 'Lulu',
+        image: imgLuluFace
+      },
+      {
+        name: 'Karma',
+        image: imgKarmaFace
       }
     ],
     goodAgainst: [
@@ -1661,6 +2281,18 @@ export const champions = [
       {
         name: 'Leona',
         image: imgLeonaFace
+      },
+      {
+        name: 'Rakan',
+        image: imgRakanFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Nautilus',
+        image: imgNautilusFace
       }
     ],
     synergy: [
@@ -1689,6 +2321,14 @@ export const champions = [
       {
         name: 'Gragas',
         image: imgGragasFace
+      },
+      {
+        name: 'Rammus',
+        image: imgRammusFace
+      },
+      {
+        name: 'Rengar',
+        image: imgRengarFace
       }
     ],
     goodAgainst: [
@@ -1703,6 +2343,14 @@ export const champions = [
       {
         name: 'Wukong',
         image: imgWukongFace
+      },
+      {
+        name: 'Nunu',
+        image: imgNunuFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
       }
     ],
     synergy: [
@@ -1731,6 +2379,22 @@ export const champions = [
       {
         name: 'Jayce',
         image: imgJayceFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
+      },
+      {
+        name: 'Shen',
+        image: imgShenFace
+      },
+      {
+        name: 'Sett',
+        image: imgSettFace
       }
     ],
     goodAgainst: [
@@ -1745,6 +2409,34 @@ export const champions = [
       {
         name: 'Irelia',
         image: imgIreliaFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
+      },
+      {
+        name: 'Kayle',
+        image: imgKayleFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Gwen',
+        image: imgGwenFace
+      },
+      {
+        name: 'Ornn',
+        image: imgOrnnFace
+      },
+      {
+        name: 'Volibear',
+        image: imgVolibearFace
       }
     ],
     synergy: [
@@ -1763,40 +2455,76 @@ export const champions = [
     image: imgJayce,
     weakAgainst: [
       {
-        name: 'KhaZix',
-        image: imgKhaZixFace
+        name: 'Irelia',
+        image: imgIreliaFace
       },
       {
-        name: 'Rengar',
-        image: imgRengarFace
+        name: 'Riven',
+        image: imgRivenFace
       },
       {
-        name: 'Gragas',
-        image: imgGragasFace
+        name: 'Wukong',
+        image: imgWukongFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
       }
     ],
     goodAgainst: [
       {
-        name: 'Jarvan',
-        image: imgJarvanFace
+        name: 'Fiora',
+        image: imgFioraFace
       },
       {
-        name: 'Vi',
-        image: imgViFace
+        name: 'Kennen',
+        image: imgKennenFace
       },
       {
-        name: 'Amumu',
-        image: imgAmumuFace
-      }
-    ],
-    synergy: [
+        name: 'Darius',
+        image: imgDariusFace
+      },
       {
-        name: 'Yuumi',
-        image: imgYuumiFace
+        name: 'Kayle',
+        image: imgKayleFace
       },
       {
         name: 'Shen',
         image: imgShenFace
+      },
+      {
+        name: 'Teemo',
+        image: imgTeemoFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Gwen',
+        image: imgGwenFace
+      }
+    ],
+    synergy: [
+      {
+        name: 'Lee Sin',
+        image: imgLeeSinFace
+      },
+      {
+        name: 'Vi',
+        image: imgViFace
       }
     ]
   },
@@ -1815,6 +2543,10 @@ export const champions = [
       {
         name: 'Tristana',
         image: imgTristanaFace
+      },
+      {
+        name: 'Miss Fortune',
+        image: imgMissFortuneFace
       }
     ],
     goodAgainst: [
@@ -1857,6 +2589,14 @@ export const champions = [
       {
         name: 'Jhin',
         image: imgJhinFace
+      },
+      {
+        name: 'Caitlyn',
+        image: imgCaitlynFace
+      },
+      {
+        name: 'Lucian',
+        image: imgLucianFace
       }
     ],
     goodAgainst: [
@@ -1899,6 +2639,14 @@ export const champions = [
       {
         name: 'Xayah',
         image: imgXayahFace
+      },
+      {
+        name: 'Miss Fortune',
+        image: imgMissFortuneFace
+      },
+      {
+        name: 'Caitlyn',
+        image: imgCaitlynFace
       }
     ],
     goodAgainst: [
@@ -1913,6 +2661,10 @@ export const champions = [
       {
         name: 'Ezreal',
         image: imgEzrealFace
+      },
+      {
+        name: 'Jhin',
+        image: imgJhinFace
       }
     ],
     synergy: [
@@ -1941,6 +2693,18 @@ export const champions = [
       {
         name: 'Thresh',
         image: imgThreshFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
+      },
+      {
+        name: 'Fizz',
+        image: imgFizzFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
       }
     ],
     goodAgainst: [
@@ -1955,6 +2719,30 @@ export const champions = [
       {
         name: 'Lux',
         image: imgLuxFace
+      },
+      {
+        name: 'Annie',
+        image: imgAnnieFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Braum',
+        image: imgBraumFace
+      },
+      {
+        name: 'Lulu',
+        image: imgLuluFace
+      },
+      {
+        name: 'Corki',
+        image: imgCorkiFace
+      },
+      {
+        name: 'Ahri',
+        image: imgAhriFace
       }
     ],
     synergy: [
@@ -1987,6 +2775,18 @@ export const champions = [
       {
         name: 'Pantheon',
         image: imgPantheonFace
+      },
+      {
+        name: 'Akshan',
+        image: imgAkshanFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
+      },
+      {
+        name: 'Talon',
+        image: imgTalonFace
       }
     ],
     goodAgainst: [
@@ -2001,6 +2801,18 @@ export const champions = [
       {
         name: 'Vladimir',
         image: imgVladimirFace
+      },
+      {
+        name: 'Veigar',
+        image: imgVeigarFace
+      },
+      {
+        name: 'Ekko',
+        image: imgEkkoFace
+      },
+      {
+        name: 'Annie',
+        image: imgAnnieFace
       }
     ],
     synergy: [
@@ -2029,6 +2841,30 @@ export const champions = [
       {
         name: 'Diana',
         image: imgDianaFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Annie',
+        image: imgAnnieFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
+      },
+      {
+        name: 'Kassadin',
+        image: imgKassadinFace
+      },
+      {
+        name: 'Vladimir',
+        image: imgVladimirFace
       }
     ],
     goodAgainst: [
@@ -2043,6 +2879,18 @@ export const champions = [
       {
         name: 'Brand',
         image: imgBrandFace
+      },
+      {
+        name: 'Seraphine',
+        image: imgSeraphineFace
+      },
+      {
+        name: 'Ahri',
+        image: imgAhriFace
+      },
+      {
+        name: 'Corki',
+        image: imgCorkiFace
       }
     ],
     synergy: [
@@ -2075,6 +2923,22 @@ export const champions = [
       {
         name: 'Riven',
         image: imgRivenFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
       }
     ],
     goodAgainst: [
@@ -2089,6 +2953,14 @@ export const champions = [
       {
         name: 'Volibear',
         image: imgVolibearFace
+      },
+      {
+        name: 'Singed',
+        image: imgSingedFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
       }
     ],
     synergy: [
@@ -2117,6 +2989,14 @@ export const champions = [
       {
         name: 'Rengar',
         image: imgRengarFace
+      },
+      {
+        name: 'KhaZix',
+        image: imgKhaZixFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
       }
     ],
     goodAgainst: [
@@ -2131,6 +3011,10 @@ export const champions = [
       {
         name: 'Jarvan',
         image: imgJarvanFace
+      },
+      {
+        name: 'Nunu',
+        image: imgNunuFace
       }
     ],
     synergy: [
@@ -2159,6 +3043,22 @@ export const champions = [
       {
         name: 'Ziggs',
         image: imgZiggsFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
       }
     ],
     goodAgainst: [
@@ -2173,6 +3073,18 @@ export const champions = [
       {
         name: 'Akali',
         image: imgAkaliFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
+      },
+      {
+        name: 'Garen',
+        image: imgGarenFace
       }
     ],
     synergy: [
@@ -2203,6 +3115,18 @@ export const champions = [
         image: imgPantheonFace
       },
       {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Lee Sin',
+        image: imgLeeSinFace
+      },
+      {
         name: 'Xin Zhao',
         image: imgXinZhaoFace
       }
@@ -2219,6 +3143,10 @@ export const champions = [
       {
         name: 'Shyvana',
         image: imgShyvanaFace
+      },
+      {
+        name: 'Jarvan',
+        image: imgJarvanFace
       }
     ],
     synergy: [
@@ -2251,6 +3179,14 @@ export const champions = [
       {
         name: 'Dr. Mundo',
         image: imgDrMundoFace
+      },
+      {
+        name: 'Vi',
+        image: imgViFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
       }
     ],
     goodAgainst: [
@@ -2265,6 +3201,18 @@ export const champions = [
       {
         name: 'Jarvan',
         image: imgJarvanFace
+      },
+      {
+        name: 'Evelynn',
+        image: imgEvelynnFace
+      },
+      {
+        name: 'Kha Zix',
+        image: imgKhaZixFace
+      },
+      {
+        name: 'Rengar',
+        image: imgRengarFace
       }
     ],
     synergy: [
@@ -2297,6 +3245,10 @@ export const champions = [
       {
         name: 'Janna',
         image: imgJannaFace
+      },
+      {
+        name: 'Thresh',
+        image: imgThreshFace
       }
     ],
     goodAgainst: [
@@ -2311,6 +3263,18 @@ export const champions = [
       {
         name: 'Soraka',
         image: imgSorakaFace
+      },
+      {
+        name: 'Senna',
+        image: imgSennaFace
+      },
+      {
+        name: 'Yuumi',
+        image: imgYuumiFace
+      },
+      {
+        name: 'Zyra',
+        image: imgZyraFace
       }
     ],
     synergy: [
@@ -2343,6 +3307,14 @@ export const champions = [
       {
         name: 'Irelia',
         image: imgIreliaFace
+      },
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
       }
     ],
     goodAgainst: [
@@ -2399,6 +3371,14 @@ export const champions = [
       {
         name: 'Tristana',
         image: imgTristanaFace
+      },
+      {
+        name: 'Jhin',
+        image: imgJhinFace
+      },
+      {
+        name: 'Ashe',
+        image: imgAsheFace
       }
     ],
     synergy: [
@@ -2431,6 +3411,14 @@ export const champions = [
       {
         name: 'Nami',
         image: imgNamiFace
+      },
+      {
+        name: 'Leona',
+        image: imgLeonaFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
       }
     ],
     goodAgainst: [
@@ -2445,6 +3433,10 @@ export const champions = [
       {
         name: 'Alistar',
         image: imgAlistarFace
+      },
+      {
+        name: 'Janna',
+        image: imgJannaFace
       }
     ],
     synergy: [
@@ -2477,6 +3469,30 @@ export const champions = [
       {
         name: 'Rakan',
         image: imgRakanFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Katarina',
+        image: imgKatarinaFace
+      },
+      {
+        name: 'Talon',
+        image: imgTalonFace
+      },
+      {
+        name: 'Alistar',
+        image: imgAlistarFace
+      },
+      {
+        name: 'Lulu',
+        image: imgLuluFace
       }
     ],
     goodAgainst: [
@@ -2491,6 +3507,22 @@ export const champions = [
       {
         name: 'Vex',
         image: imgVexFace
+      },
+      {
+        name: 'Soraka',
+        image: imgSorakaFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
+      },
+      {
+        name: 'Kennen',
+        image: imgKennenFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
       }
     ],
     synergy: [
@@ -2523,6 +3555,26 @@ export const champions = [
       {
         name: 'Lux',
         image: imgLuxFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
+      },
+      {
+        name: 'Karma',
+        image: imgKarmaFace
+      },
+      {
+        name: 'Nami',
+        image: imgNamiFace
       }
     ],
     goodAgainst: [
@@ -2537,6 +3589,26 @@ export const champions = [
       {
         name: 'Tryndamere',
         image: imgTryndamereFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
+      },
+      {
+        name: 'Wukong',
+        image: imgWukongFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Braum',
+        image: imgBraumFace
+      },
+      {
+        name: 'Janna',
+        image: imgJannaFace
       }
     ],
     synergy: [
@@ -2569,6 +3641,14 @@ export const champions = [
       {
         name: 'Wukong',
         image: imgWukongFace
+      },
+      {
+        name: 'Rammus',
+        image: imgRammusFace
+      },
+      {
+        name: 'Kha Zix',
+        image: imgKhaZixFace
       }
     ],
     goodAgainst: [
@@ -2583,6 +3663,18 @@ export const champions = [
       {
         name: 'Graves',
         image: imgGravesFace
+      },
+      {
+        name: 'Shyvana',
+        image: imgShyvanaFace
+      },
+      {
+        name: 'Kayn',
+        image: imgKaynFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
       }
     ],
     synergy: [
@@ -2629,6 +3721,10 @@ export const champions = [
       {
         name: 'Ezreal',
         image: imgEzrealFace
+      },
+      {
+        name: 'Caitlyn',
+        image: imgCaitlynFace
       }
     ],
     synergy: [
@@ -2661,6 +3757,10 @@ export const champions = [
       {
         name: 'Soraka',
         image: imgSorakaFace
+      },
+      {
+        name: 'Sona',
+        image: imgSonaFace
       }
     ],
     goodAgainst: [
@@ -2675,6 +3775,14 @@ export const champions = [
       {
         name: 'Lux',
         image: imgLuxFace
+      },
+      {
+        name: 'Braum',
+        image: imgBraumFace
+      },
+      {
+        name: 'Nautilus',
+        image: imgNautilusFace
       }
     ],
     synergy: [
@@ -2721,6 +3829,10 @@ export const champions = [
       {
         name: 'Lulu',
         image: imgLuluFace
+      },
+      {
+        name: 'Soraka',
+        image: imgSorakaFace
       }
     ],
     synergy: [
@@ -2753,6 +3865,30 @@ export const champions = [
       {
         name: 'Teemo',
         image: imgTeemoFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Vayne',
+        image: imgVayneFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Sett',
+        image: imgSettFace
+      },
+      {
+        name: 'Fiora',
+        image: imgFioraFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
       }
     ],
     goodAgainst: [
@@ -2767,6 +3903,14 @@ export const champions = [
       {
         name: 'Akali',
         image: imgAkaliFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
+      },
+      {
+        name: 'Kennen',
+        image: imgKennenFace
       }
     ],
     synergy: [
@@ -2799,6 +3943,14 @@ export const champions = [
       {
         name: 'Leona',
         image: imgLeonaFace
+      },
+      {
+        name: 'Alistar',
+        image: imgAlistarFace
+      },
+      {
+        name: 'Janna',
+        image: imgJannaFace
       }
     ],
     goodAgainst: [
@@ -2813,6 +3965,14 @@ export const champions = [
       {
         name: 'Lux',
         image: imgLuxFace
+      },
+      {
+        name: 'Rakan',
+        image: imgRakanFace
+      },
+      {
+        name: 'Yuumi',
+        image: imgYuumiFace
       }
     ],
     synergy: [
@@ -2841,6 +4001,10 @@ export const champions = [
       {
         name: 'Ashe',
         image: imgAsheFace
+      },
+      {
+        name: 'Jhin',
+        image: imgJhinFace
       }
     ],
     goodAgainst: [
@@ -2855,6 +4019,10 @@ export const champions = [
       {
         name: 'Jinx',
         image: imgJinxFace
+      },
+      {
+        name: 'Tristana',
+        image: imgTristanaFace
       }
     ],
     synergy: [
@@ -2887,6 +4055,14 @@ export const champions = [
       {
         name: 'Vi',
         image: imgViFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
       }
     ],
     goodAgainst: [
@@ -2901,6 +4077,10 @@ export const champions = [
       {
         name: 'Rengar',
         image: imgRengarFace
+      },
+      {
+        name: 'Evelynn',
+        image: imgEvelynnFace
       }
     ],
     synergy: [
@@ -2947,6 +4127,14 @@ export const champions = [
       {
         name: 'Evelynn',
         image: imgEvelynnFace
+      },
+      {
+        name: 'Amumu',
+        image: imgAmumuFace
+      },
+      {
+        name: 'Nunu',
+        image: imgNunuFace
       }
     ],
     synergy: [
@@ -2975,6 +4163,22 @@ export const champions = [
       {
         name: 'Seraphine',
         image: imgSeraphineFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Galio',
+        image: imgGalioFace
+      },
+      {
+        name: 'Zoe',
+        image: imgZoeFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
       }
     ],
     goodAgainst: [
@@ -2989,6 +4193,18 @@ export const champions = [
       {
         name: 'Morgana',
         image: imgMorganaFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Vladimir',
+        image: imgVladimirFace
       }
     ],
     synergy: [
@@ -3021,6 +4237,14 @@ export const champions = [
       {
         name: 'Gwen',
         image: imgGwenFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
       }
     ],
     goodAgainst: [
@@ -3067,6 +4291,18 @@ export const champions = [
       {
         name: 'Jarvan',
         image: imgJarvanFace
+      },
+      {
+        name: 'Dr Mundo',
+        image: imgDrMundoFace
+      },
+      {
+        name: 'Vi',
+        image: imgViFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
       }
     ],
     goodAgainst: [
@@ -3081,6 +4317,14 @@ export const champions = [
       {
         name: 'Diana',
         image: imgDianaFace
+      },
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
       }
     ],
     synergy: [
@@ -3127,6 +4371,18 @@ export const champions = [
       {
         name: 'Brand',
         image: imgBrandFace
+      },
+      {
+        name: 'Senna',
+        image: imgSennaFace
+      },
+      {
+        name: 'Seraphine',
+        image: imgSeraphineFace
+      },
+      {
+        name: 'Zyra',
+        image: imgZyraFace
       }
     ],
     synergy: [
@@ -3159,6 +4415,14 @@ export const champions = [
       {
         name: 'Morgana',
         image: imgMorganaFace
+      },
+      {
+        name: 'Janna',
+        image: imgJannaFace
+      },
+      {
+        name: 'Thresh',
+        image: imgThreshFace
       }
     ],
     goodAgainst: [
@@ -3173,6 +4437,14 @@ export const champions = [
       {
         name: 'Soraka',
         image: imgSorakaFace
+      },
+      {
+        name: 'Blitzcrank',
+        image: imgBlitzcrankFace
+      },
+      {
+        name: 'Braum',
+        image: imgBraumFace
       }
     ],
     synergy: [
@@ -3209,6 +4481,14 @@ export const champions = [
       {
         name: 'Vi',
         image: imgViFace
+      },
+      {
+        name: 'Amumu',
+        image: imgAmumuFace
+      },
+      {
+        name: 'Nunu',
+        image: imgNunuFace
       }
     ],
     goodAgainst: [
@@ -3223,6 +4503,10 @@ export const champions = [
       {
         name: 'Tryndamere',
         image: imgTryndamereFace
+      },
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
       }
     ],
     synergy: [
@@ -3252,6 +4536,34 @@ export const champions = [
       {
         name: 'Vayne',
         image: imgVayneFace
+      },
+      {
+        name: 'Kennen',
+        image: imgKennenFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Fiora',
+        image: imgFioraFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
       }
     ],
     goodAgainst: [
@@ -3266,6 +4578,34 @@ export const champions = [
       {
         name: 'Riven',
         image: imgRivenFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
+      },
+      {
+        name: 'Singed',
+        image: imgSingedFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Dr Mundo',
+        image: imgDrMundoFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
       }
     ],
     synergy: [
@@ -3294,6 +4634,18 @@ export const champions = [
       {
         name: 'Rammus',
         image: imgRammusFace
+      },
+      {
+        name: 'Xin Zhao',
+        image: imgXinZhaoFace
+      },
+      {
+        name: 'Lee Sin',
+        image: imgLeeSinFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
       }
     ],
     goodAgainst: [
@@ -3308,6 +4660,10 @@ export const champions = [
       {
         name: 'Jarvan',
         image: imgJarvanFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
       }
     ],
     synergy: [
@@ -3336,6 +4692,26 @@ export const champions = [
       {
         name: 'Kennen',
         image: imgKennenFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
+      },
+      {
+        name: 'Fiora',
+        image: imgFioraFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Sett',
+        image: imgSettFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
       }
     ],
     goodAgainst: [
@@ -3350,6 +4726,30 @@ export const champions = [
       {
         name: 'Dr. Mundo',
         image: imgDrMundoFace
+      },
+      {
+        name: 'Rengar',
+        image: imgRengarFace
+      },
+      {
+        name: 'Singed',
+        image: imgSingedFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
+      },
+      {
+        name: 'Garen',
+        image: imgGarenFace
+      },
+      {
+        name: 'Kayle',
+        image: imgKayleFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
       }
     ],
     synergy: [
@@ -3396,6 +4796,10 @@ export const champions = [
       {
         name: 'Ashe',
         image: imgAsheFace
+      },
+      {
+        name: 'Twitch',
+        image: imgTwitchFace
       }
     ],
     synergy: [
@@ -3428,6 +4832,14 @@ export const champions = [
       {
         name: 'Thresh',
         image: imgThreshFace
+      },
+      {
+        name: 'Rakan',
+        image: imgRakanFace
+      },
+      {
+        name: 'Alistar',
+        image: imgAlistarFace
       }
     ],
     goodAgainst: [
@@ -3442,6 +4854,14 @@ export const champions = [
       {
         name: 'Lulu',
         image: imgLuluFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Braum',
+        image: imgBraumFace
       }
     ],
     synergy: [
@@ -3478,6 +4898,14 @@ export const champions = [
       {
         name: 'Leona',
         image: imgLeonaFace
+      },
+      {
+        name: 'Braum',
+        image: imgBraumFace
+      },
+      {
+        name: 'Pyke',
+        image: imgPykeFace
       }
     ],
     goodAgainst: [
@@ -3492,6 +4920,14 @@ export const champions = [
       {
         name: 'Janna',
         image: imgJannaFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
+      },
+      {
+        name: 'Galio',
+        image: imgGalioFace
       }
     ],
     synergy: [
@@ -3524,6 +4960,10 @@ export const champions = [
       {
         name: 'Dr. Mundo',
         image: imgDrMundoFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
       }
     ],
     goodAgainst: [
@@ -3538,6 +4978,26 @@ export const champions = [
       {
         name: 'Shen',
         image: imgShenFace
+      },
+      {
+        name: 'Kayle',
+        image: imgKayleFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
+      },
+      {
+        name: 'Rengar',
+        image: imgRengarFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
       }
     ],
     synergy: [
@@ -3570,6 +5030,22 @@ export const champions = [
       {
         name: 'Fiora',
         image: imgFioraFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
       }
     ],
     goodAgainst: [
@@ -3584,6 +5060,18 @@ export const champions = [
       {
         name: 'Tryndamere',
         image: imgTryndamereFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
       }
     ],
     synergy: [
@@ -3616,6 +5104,14 @@ export const champions = [
       {
         name: 'Lee Sin',
         image: imgLeeSinFace
+      },
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
+      },
+      {
+        name: 'Xin Zhao',
+        image: imgXinZhaoFace
       }
     ],
     goodAgainst: [
@@ -3662,6 +5158,18 @@ export const champions = [
       {
         name: 'Darius',
         image: imgDariusFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Fiora',
+        image: imgFioraFace
+      },
+      {
+        name: 'Vayne',
+        image: imgVayneFace
       }
     ],
     goodAgainst: [
@@ -3676,6 +5184,18 @@ export const champions = [
       {
         name: 'Yasuo',
         image: imgYasuoFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
+      },
+      {
+        name: 'Garen',
+        image: imgGarenFace
+      },
+      {
+        name: 'Nautilus',
+        image: imgNautilusFace
       }
     ],
     synergy: [
@@ -3708,6 +5228,26 @@ export const champions = [
       {
         name: 'Fiora',
         image: imgFioraFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Gwen',
+        image: imgGwenFace
       }
     ],
     goodAgainst: [
@@ -3722,6 +5262,18 @@ export const champions = [
       {
         name: 'Kayle',
         image: imgKayleFace
+      },
+      {
+        name: 'Nasus',
+        image: imgNasusFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Tryndamere',
+        image: imgTryndamereFace
       }
     ],
     synergy: [
@@ -3750,6 +5302,10 @@ export const champions = [
       {
         name: 'Samira',
         image: imgSamiraFace
+      },
+      {
+        name: 'Twitch',
+        image: imgTwitchFace
       }
     ],
     goodAgainst: [
@@ -3764,6 +5320,10 @@ export const champions = [
       {
         name: 'Varus',
         image: imgVarusFace
+      },
+      {
+        name: 'Ashe',
+        image: imgAsheFace
       }
     ],
     synergy: [
@@ -3800,6 +5360,14 @@ export const champions = [
       {
         name: 'Thresh',
         image: imgThreshFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
       }
     ],
     goodAgainst: [
@@ -3814,6 +5382,10 @@ export const champions = [
       {
         name: 'Lulu',
         image: imgLuluFace
+      },
+      {
+        name: 'Soraka',
+        image: imgSorakaFace
       }
     ],
     synergy: [
@@ -3846,6 +5418,10 @@ export const champions = [
       {
         name: 'Thresh',
         image: imgThreshFace
+      },
+      {
+        name: 'Lux',
+        image: imgLuxFace
       }
     ],
     goodAgainst: [
@@ -3860,6 +5436,14 @@ export const champions = [
       {
         name: 'Janna',
         image: imgJannaFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
+      },
+      {
+        name: 'Pyke',
+        image: imgPykeFace
       }
     ],
     synergy: [
@@ -3892,6 +5476,18 @@ export const champions = [
       {
         name: 'Karma',
         image: imgKarmaFace
+      },
+      {
+        name: 'Ashe',
+        image: imgAsheFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
+      },
+      {
+        name: 'Fizz',
+        image: imgFizzFace
       }
     ],
     goodAgainst: [
@@ -3906,6 +5502,22 @@ export const champions = [
       {
         name: 'Galio',
         image: imgGalioFace
+      },
+      {
+        name: 'Alistar',
+        image: imgAlistarFace
+      },
+      {
+        name: 'Braum',
+        image: imgBraumFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Ahri',
+        image: imgAhriFace
       }
     ],
     synergy: [
@@ -3938,6 +5550,18 @@ export const champions = [
       {
         name: 'Yasuo',
         image: imgYasuoFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
       }
     ],
     goodAgainst: [
@@ -3952,6 +5576,14 @@ export const champions = [
       {
         name: 'Veigar',
         image: imgVeigarFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
+      },
+      {
+        name: 'Vex',
+        image: imgVexFace
       }
     ],
     synergy: [
@@ -3980,6 +5612,14 @@ export const champions = [
       {
         name: 'Orianna',
         image: imgOriannaFace
+      },
+      {
+        name: 'Akshan',
+        image: imgAkshanFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
       }
     ],
     goodAgainst: [
@@ -3994,6 +5634,22 @@ export const champions = [
       {
         name: 'Ahri',
         image: imgAhriFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
+      },
+      {
+        name: 'Lux',
+        image: imgLuxFace
+      },
+      {
+        name: 'Seraphine',
+        image: imgSeraphineFace
+      },
+      {
+        name: 'Ekko',
+        image: imgEkkoFace
       }
     ],
     synergy: [
@@ -4022,6 +5678,26 @@ export const champions = [
       {
         name: 'Jayce',
         image: imgJayceFace
+      },
+      {
+        name: 'Ziggs',
+        image: imgZiggsFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
+      },
+      {
+        name: 'Annie',
+        image: imgAnnieFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
       }
     ],
     goodAgainst: [
@@ -4036,6 +5712,10 @@ export const champions = [
       {
         name: 'Katarina',
         image: imgKatarinaFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
       }
     ],
     synergy: [
@@ -4068,6 +5748,14 @@ export const champions = [
       {
         name: 'Alistar',
         image: imgAlistarFace
+      },
+      {
+        name: 'Braum',
+        image: imgBraumFace
+      },
+      {
+        name: 'Zyra',
+        image: imgZyraFace
       }
     ],
     goodAgainst: [
@@ -4082,6 +5770,14 @@ export const champions = [
       {
         name: 'Sona',
         image: imgSonaFace
+      },
+      {
+        name: 'Lux',
+        image: imgLuxFace
+      },
+      {
+        name: 'Yuumi',
+        image: imgYuumiFace
       }
     ],
     synergy: [
@@ -4114,6 +5810,10 @@ export const champions = [
       {
         name: 'Caitlyn',
         image: imgCaitlynFace
+      },
+      {
+        name: 'Lucian',
+        image: imgLucianFace
       }
     ],
     goodAgainst: [
@@ -4128,6 +5828,14 @@ export const champions = [
       {
         name: 'Ashe',
         image: imgAsheFace
+      },
+      {
+        name: 'Jhin',
+        image: imgJhinFace
+      },
+      {
+        name: 'Xayah',
+        image: imgXayahFace
       }
     ],
     synergy: [
@@ -4160,6 +5868,30 @@ export const champions = [
       {
         name: 'Fiora',
         image: imgFioraFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Shen',
+        image: imgShenFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
+      },
+      {
+        name: 'Sett',
+        image: imgSettFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
+      },
+      {
+        name: 'Sion',
+        image: imgSionFace
       }
     ],
     goodAgainst: [
@@ -4174,6 +5906,18 @@ export const champions = [
       {
         name: 'Irelia',
         image: imgIreliaFace
+      },
+      {
+        name: 'Riven',
+        image: imgRivenFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
       }
     ],
     synergy: [
@@ -4202,6 +5946,26 @@ export const champions = [
       {
         name: 'Fizz',
         image: imgFizzFace
+      },
+      {
+        name: 'Ahri',
+        image: imgAhriFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Galio',
+        image: imgGalioFace
+      },
+      {
+        name: 'Vladimir',
+        image: imgVladimirFace
+      },
+      {
+        name: 'Talon',
+        image: imgTalonFace
       }
     ],
     goodAgainst: [
@@ -4216,6 +5980,10 @@ export const champions = [
       {
         name: 'Corki',
         image: imgCorkiFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
       }
     ],
     synergy: [
@@ -4244,6 +6012,10 @@ export const champions = [
       {
         name: 'Caitlyn',
         image: imgCaitlynFace
+      },
+      {
+        name: 'Draven',
+        image: imgDravenFace
       }
     ],
     goodAgainst: [
@@ -4258,6 +6030,14 @@ export const champions = [
       {
         name: 'Jhin',
         image: imgJhinFace
+      },
+      {
+        name: 'Jinx',
+        image: imgJinxFace
+      },
+      {
+        name: 'Sivir',
+        image: imgSivirFace
       }
     ],
     synergy: [
@@ -4286,6 +6066,22 @@ export const champions = [
       {
         name: 'Aatrox',
         image: imgAatroxFace
+      },
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
+      },
+      {
+        name: 'Fiora',
+        image: imgFioraFace
+      },
+      {
+        name: 'Vayne',
+        image: imgVayneFace
       }
     ],
     goodAgainst: [
@@ -4300,6 +6096,14 @@ export const champions = [
       {
         name: 'Jax',
         image: imgJaxFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Shen',
+        image: imgShenFace
       }
     ],
     synergy: [
@@ -4342,6 +6146,10 @@ export const champions = [
       {
         name: 'Vayne',
         image: imgVayneFace
+      },
+      {
+        name: 'Miss Fortune',
+        image: imgMissFortuneFace
       }
     ],
     synergy: [
@@ -4370,6 +6178,10 @@ export const champions = [
       {
         name: 'Caitlyn',
         image: imgCaitlynFace
+      },
+      {
+        name: 'Lucian',
+        image: imgLucianFace
       }
     ],
     goodAgainst: [
@@ -4384,6 +6196,10 @@ export const champions = [
       {
         name: 'Jhin',
         image: imgJhinFace
+      },
+      {
+        name: 'Sivir',
+        image: imgSivirFace
       }
     ],
     synergy: [
@@ -4416,6 +6232,22 @@ export const champions = [
       {
         name: 'Zed',
         image: imgZedFace
+      },
+      {
+        name: 'Lucian',
+        image: imgLucianFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Vladimir',
+        image: imgVladimirFace
+      },
+      {
+        name: 'Talon',
+        image: imgTalonFace
       }
     ],
     goodAgainst: [
@@ -4430,6 +6262,10 @@ export const champions = [
       {
         name: 'Corki',
         image: imgCorkiFace
+      },
+      {
+        name: 'Akshan',
+        image: imgAkshanFace
       }
     ],
     synergy: [
@@ -4462,6 +6298,14 @@ export const champions = [
       {
         name: 'Galio',
         image: imgGalioFace
+      },
+      {
+        name: 'Lux',
+        image: imgLuxFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
       }
     ],
     goodAgainst: [
@@ -4476,6 +6320,14 @@ export const champions = [
       {
         name: 'Yasuo',
         image: imgYasuoFace
+      },
+      {
+        name: 'Ekko',
+        image: imgEkkoFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
       }
     ],
     synergy: [
@@ -4504,6 +6356,14 @@ export const champions = [
       {
         name: 'Olaf',
         image: imgOlafFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
+      },
+      {
+        name: 'Sett',
+        image: imgSettFace
       }
     ],
     goodAgainst: [
@@ -4518,6 +6378,14 @@ export const champions = [
       {
         name: "Kha'Zix",
         image: imgKhaZixFace
+      },
+      {
+        name: 'Evelynn',
+        image: imgEvelynnFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
       }
     ],
     synergy: [
@@ -4546,6 +6414,14 @@ export const champions = [
       {
         name: 'Irelia',
         image: imgIreliaFace
+      },
+      {
+        name: 'Ziggs',
+        image: imgZiggsFace
+      },
+      {
+        name: 'Zoe',
+        image: imgZoeFace
       }
     ],
     goodAgainst: [
@@ -4560,6 +6436,14 @@ export const champions = [
       {
         name: 'Veigar',
         image: imgVeigarFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
+      },
+      {
+        name: 'Jayce',
+        image: imgJayceFace
       }
     ],
     synergy: [
@@ -4588,6 +6472,22 @@ export const champions = [
       {
         name: 'Fiora',
         image: imgFioraFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Gwen',
+        image: imgGwenFace
+      },
+      {
+        name: 'Camille',
+        image: imgCamilleFace
       }
     ],
     goodAgainst: [
@@ -4602,6 +6502,14 @@ export const champions = [
       {
         name: 'Singed',
         image: imgSingedFace
+      },
+      {
+        name: 'Diana',
+        image: imgDianaFace
+      },
+      {
+        name: 'Jarvan',
+        image: imgJarvanFace
       }
     ],
     synergy: [
@@ -4676,6 +6584,22 @@ export const champions = [
       {
         name: 'Renekton',
         image: imgRenektonFace
+      },
+      {
+        name: 'Jarvan',
+        image: imgJarvanFace
+      },
+      {
+        name: 'Xin Zhao',
+        image: imgXinZhaoFace
+      },
+      {
+        name: 'Lee Sin',
+        image: imgLeeSinFace
+      },
+      {
+        name: 'Kha Zix',
+        image: imgKhaZixFace
       }
     ],
     goodAgainst: [
@@ -4690,6 +6614,18 @@ export const champions = [
       {
         name: 'Jayce',
         image: imgJayceFace
+      },
+      {
+        name: 'Evelynn',
+        image: imgEvelynnFace
+      },
+      {
+        name: 'Vi',
+        image: imgViFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
       }
     ],
     synergy: [
@@ -4718,6 +6654,14 @@ export const champions = [
       {
         name: 'Caitlyn',
         image: imgCaitlynFace
+      },
+      {
+        name: 'Lucian',
+        image: imgLucianFace
+      },
+      {
+        name: 'Varus',
+        image: imgVarusFace
       }
     ],
     goodAgainst: [
@@ -4732,6 +6676,10 @@ export const champions = [
       {
         name: "Kai'Sa",
         image: imgKaiSaFace
+      },
+      {
+        name: 'Jinx',
+        image: imgJinxFace
       }
     ],
     synergy: [
@@ -4778,6 +6726,14 @@ export const champions = [
       {
         name: 'Lee Sin',
         image: imgLeeSinFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
+      },
+      {
+        name: 'Kha Zix',
+        image: imgKhaZixFace
       }
     ],
     synergy: [
@@ -4806,6 +6762,18 @@ export const champions = [
       {
         name: 'Orianna',
         image: imgOriannaFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
+      },
+      {
+        name: 'Vex',
+        image: imgVexFace
       }
     ],
     goodAgainst: [
@@ -4820,6 +6788,18 @@ export const champions = [
       {
         name: 'Katarina',
         image: imgKatarinaFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
+      },
+      {
+        name: 'Ziggs',
+        image: imgZiggsFace
       }
     ],
     synergy: [
@@ -4852,6 +6832,18 @@ export const champions = [
       {
         name: 'Zed',
         image: imgZedFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Vex',
+        image: imgVexFace
       }
     ],
     goodAgainst: [
@@ -4866,6 +6858,14 @@ export const champions = [
       {
         name: 'Ziggs',
         image: imgZiggsFace
+      },
+      {
+        name: 'Seraphine',
+        image: imgSeraphineFace
+      },
+      {
+        name: 'Veigar',
+        image: imgVeigarFace
       }
     ],
     synergy: [
@@ -4894,6 +6894,10 @@ export const champions = [
       {
         name: 'Thresh',
         image: imgThreshFace
+      },
+      {
+        name: 'Alistar',
+        image: imgAlistarFace
       }
     ],
     goodAgainst: [
@@ -4908,6 +6912,10 @@ export const champions = [
       {
         name: 'Soraka',
         image: imgSorakaFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
       }
     ],
     synergy: [
@@ -4940,6 +6948,22 @@ export const champions = [
       {
         name: 'Akali',
         image: imgAkaliFace
+      },
+      {
+        name: 'Ahri',
+        image: imgAhriFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Ekko',
+        image: imgEkkoFace
+      },
+      {
+        name: 'Irelia',
+        image: imgIreliaFace
       }
     ],
     goodAgainst: [
@@ -4954,6 +6978,26 @@ export const champions = [
       {
         name: 'Yasuo',
         image: imgYasuoFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
+      },
+      {
+        name: 'Brand',
+        image: imgBrandFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
+      },
+      {
+        name: 'Veigar',
+        image: imgVeigarFace
+      },
+      {
+        name: 'Galio',
+        image: imgGalioFace
       }
     ],
     synergy: [
@@ -4982,6 +7026,10 @@ export const champions = [
       {
         name: 'Draven',
         image: imgDravenFace
+      },
+      {
+        name: 'Caitlyn',
+        image: imgCaitlynFace
       }
     ],
     goodAgainst: [
@@ -4996,6 +7044,10 @@ export const champions = [
       {
         name: 'Lucian',
         image: imgLucianFace
+      },
+      {
+        name: 'Orianna',
+        image: imgOriannaFace
       }
     ],
     synergy: [
@@ -5024,6 +7076,14 @@ export const champions = [
       {
         name: 'Yasuo',
         image: imgYasuoFace
+      },
+      {
+        name: 'Fizz',
+        image: imgFizzFace
+      },
+      {
+        name: 'Ahri',
+        image: imgAhriFace
       }
     ],
     goodAgainst: [
@@ -5066,6 +7126,14 @@ export const champions = [
       {
         name: 'Zed',
         image: imgZedFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Yone',
+        image: imgYoneFace
       }
     ],
     goodAgainst: [
@@ -5080,6 +7148,22 @@ export const champions = [
       {
         name: 'Annie',
         image: imgAnnieFace
+      },
+      {
+        name: 'Twisted Fate',
+        image: imgTwistedFateFace
+      },
+      {
+        name: 'Aurelion Sol',
+        image: imgAurelionSolFace
+      },
+      {
+        name: 'Orianna',
+        image: imgOriannaFace
+      },
+      {
+        name: 'Vladimir',
+        image: imgVladimirFace
       }
     ],
     synergy: [
@@ -5108,6 +7192,10 @@ export const champions = [
       {
         name: 'Nami',
         image: imgNamiFace
+      },
+      {
+        name: 'Blitzcrank',
+        image: imgBlitzcrankFace
       }
     ],
     goodAgainst: [
@@ -5122,6 +7210,10 @@ export const champions = [
       {
         name: 'Morgana',
         image: imgMorganaFace
+      },
+      {
+        name: 'Senna',
+        image: imgSennaFace
       }
     ],
     synergy: [
