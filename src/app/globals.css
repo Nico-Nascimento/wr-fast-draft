@@ -59,6 +59,9 @@
   .text-gradient-freljord {
     @apply bg-gradient-to-r from-[#32C8FF] from-20% to-secondary bg-clip-text text-transparent;
   }
+  .text-gradient-freljord-dark {
+    @apply bg-gradient-to-r from-[#141E37] from-20% to-secondary bg-clip-text text-transparent;
+  }
   .bg-gradient-freljord {
     @apply bg-gradient-to-l from-[#32C8FF] from-20% to-secondary;
   }
