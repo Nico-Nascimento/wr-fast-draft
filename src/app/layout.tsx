@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 
@@ -10,6 +10,10 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'WR Fast Draft',
   description: 'Faça o draft mais rápido de todos os tempos!'
+};
+
+export const viewport: Viewport = {
+  themeColor: 'black'
 };
 
 export default function RootLayout({
