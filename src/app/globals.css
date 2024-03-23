@@ -106,3 +106,9 @@
   background-position: left;
   z-index: -20;
 }
+
+@media not all and (min-width: 640px) {
+  .max-sm\:grid-cols-13 {
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+  }
+}
