@@ -7,7 +7,7 @@ export default function ChampionsAlphabeticalOrder() {
 
   return (
     <section className="relative w-full">
-      <div className="flex w-full max-w-fit m-auto py-10 text-lg gap-[3px] md:gap-2 md:text-xl lg:gap-4 lg:text-3xl">
+      <div className="max-sm:grid max-sm:grid-cols-13 flex w-full max-w-fit m-auto py-10 text-lg gap-2 md:gap-[10px] md:text-xl lg:gap-4 lg:text-3xl">
         {letters.map(letter => (
           <Link
             key={letter}
