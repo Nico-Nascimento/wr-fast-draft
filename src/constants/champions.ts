@@ -44,6 +44,7 @@ import imgKayle from '@/public/images/champions/kayle.jpg';
 import imgKayn from '@/public/images/champions/kayn.jpg';
 import imgKennen from '@/public/images/champions/kennen.jpg';
 import imgKhaZix from '@/public/images/champions/Khazix.jpg';
+import imgKindred from '@/public/images/champions/kindred.jpg';
 import imgLeeSin from '@/public/images/champions/leesin.jpg';
 import imgLeona from '@/public/images/champions/leona.jpg';
 import imgLillia from '@/public/images/champions/lillia.jpg';
@@ -3161,6 +3162,52 @@ export const champions = [
       {
         name: 'Corki',
         image: imgCorkiFace
+      }
+    ]
+  },
+  {
+    name: "Kindred",
+    image: imgKindred,
+    weakAgainst: [
+      {
+        name: 'Kha Zix',
+        image: imgKhaZixFace
+      },
+      {
+        name: 'Xin Zhao',
+        image: imgXinZhaoFace
+      },
+      {
+        name: 'Gragas',
+        image: imgGragasFace
+      },
+      {
+        name: 'Lee Sin',
+        image: imgLeeSinFace
+      }
+    ],
+    goodAgainst: [
+      {
+        name: 'Amumu',
+        image: imgAmumuFace
+      },
+      {
+        name: 'Kayn',
+        image: imgKaynFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
+      }
+    ],
+    synergy: [
+      {
+        name: 'Janna',
+        image: imgJannaFace
+      },
+      {
+        name: 'Lulu',
+        image: imgLuluFace
       }
     ]
   },
