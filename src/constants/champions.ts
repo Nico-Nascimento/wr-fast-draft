@@ -37,6 +37,7 @@ import imgJayce from '@/public/images/champions/jayce.jpg';
 import imgJhin from '@/public/images/champions/jhin.jpg';
 import imgJinx from '@/public/images/champions/jinx.jpg';
 import imgKaiSa from '@/public/images/champions/kaisa.jpg';
+import imgKalista from '@/public/images/champions/kalista.jpg';
 import imgKarma from '@/public/images/champions/karma.jpg';
 import imgKassadin from '@/public/images/champions/kassadin.jpg';
 import imgKatarina from '@/public/images/champions/katarina.jpg';
@@ -151,12 +152,14 @@ import imgJayceFace from '@/public/images/champions/jayce-face.webp';
 import imgJhinFace from '@/public/images/champions/jhin-face.webp';
 import imgJinxFace from '@/public/images/champions/jinx-face.webp';
 import imgKaiSaFace from '@/public/images/champions/kaisa-face.webp';
+import imgKalistaFace from '@/public/images/champions/kalista-face.webp';
 import imgKarmaFace from '@/public/images/champions/karma-face.webp';
 import imgKassadinFace from '@/public/images/champions/kassadin-face.webp';
 import imgKatarinaFace from '@/public/images/champions/katarina-face.webp';
 import imgKayleFace from '@/public/images/champions/kayle-face.png';
 import imgKaynFace from '@/public/images/champions/kayn-face.webp';
 import imgKennenFace from '@/public/images/champions/kennen-face.webp';
+import imgKindredFace from '@/public/images/champions/kindred-face.webp';
 import imgKhaZixFace from '@/public/images/champions/khazix-face.webp';
 import imgLeeSinFace from '@/public/images/champions/leesin-face.webp';
 import imgLeonaFace from '@/public/images/champions/leona-face.png';
@@ -614,6 +617,10 @@ export const champions = [
       {
         name: 'Ezreal',
         image: imgEzrealFace
+      },
+      {
+        name: 'Kalista',
+        image: imgKalistaFace
       }
     ],
     synergy: [
@@ -1374,6 +1381,10 @@ export const champions = [
       {
         name: 'Sivir',
         image: imgSivirFace
+      },
+      {
+        name: 'Kalista',
+        image: imgKalistaFace
       }
     ],
     synergy: [
@@ -1952,6 +1963,10 @@ export const champions = [
       {
         name: 'Leona',
         image: imgLeonaFace
+      },
+      {
+        name: 'Kindred',
+        image: imgKindredFace
       }
     ],
     synergy: [
@@ -2680,6 +2695,56 @@ export const champions = [
     ]
   },
   {
+    name: "Kalista",
+    image: imgKalista,
+    weakAgainst: [
+      {
+        name: 'Draven',
+        image: imgDravenFace
+      },
+      {
+        name: 'Ashe',
+        image: imgAsheFace
+      },
+      {
+        name: 'Samira',
+        image: imgSamiraFace
+      },
+      {
+        name: 'Nilah',
+        image: imgNilahFace
+      },
+      {
+        name: 'Lucian',
+        image: imgLucianFace
+      }
+    ],
+    goodAgainst: [
+      {
+        name: 'Ezreal',
+        image: imgEzrealFace
+      },
+      {
+        name: 'Zeri',
+        image: imgZeriFace
+      },
+      {
+        name: 'Jhin',
+        image: imgJhinFace
+      }
+    ],
+    synergy: [
+      {
+        name: 'Alistar',
+        image: imgAlistarFace
+      },
+      {
+        name: 'Thresh',
+        image: imgThreshFace
+      }
+    ]
+  },
+  {
     name: 'Karma',
     image: imgKarma,
     weakAgainst: [
@@ -3148,6 +3213,10 @@ export const champions = [
       {
         name: 'Jarvan',
         image: imgJarvanFace
+      },
+      {
+        name: 'Kindred',
+        image: imgKindredFace
       }
     ],
     synergy: [
@@ -3260,6 +3329,10 @@ export const champions = [
       {
         name: 'Rengar',
         image: imgRengarFace
+      },
+      {
+        name: 'Kindred',
+        image: imgKindredFace
       }
     ],
     synergy: [
@@ -3426,6 +3499,10 @@ export const champions = [
       {
         name: 'Ashe',
         image: imgAsheFace
+      },
+      {
+        name: 'Kalista',
+        image: imgKalistaFace
       }
     ],
     synergy: [
@@ -4070,6 +4147,10 @@ export const champions = [
       {
         name: 'Tristana',
         image: imgTristanaFace
+      },
+      {
+        name: 'Kalista',
+        image: imgKalistaFace
       }
     ],
     synergy: [
@@ -4847,6 +4928,10 @@ export const champions = [
       {
         name: 'Twitch',
         image: imgTwitchFace
+      },
+      {
+        name: 'Kalista',
+        image: imgKalistaFace
       }
     ],
     synergy: [
@@ -6781,6 +6866,10 @@ export const champions = [
       {
         name: 'Kha Zix',
         image: imgKhaZixFace
+      },
+      {
+        name: 'Kindred',
+        image: imgKindredFace
       }
     ],
     synergy: [
