@@ -212,6 +212,7 @@ import imgVayneFace from '@/public/images/champions/vayne-face.webp';
 import imgVeigarFace from '@/public/images/champions/veigar-face.webp';
 import imgVexFace from '@/public/images/champions/vex-face.webp';
 import imgViFace from '@/public/images/champions/vi-face.webp';
+import imgViegoFace from '@/public/images/champions/viego-face.webp';
 import imgVladimirFace from '@/public/images/champions/vladimir-face.webp';
 import imgVolibearFace from '@/public/images/champions/volibear-face.webp';
 import imgWarwickFace from '@/public/images/champions/warwick-face.webp';
@@ -6528,6 +6529,48 @@ export const champions = [
       {
         name: 'Ziggs',
         image: imgZiggsFace
+      }
+    ]
+  },
+  {
+    name: 'Viego',
+    image: imgViego,
+    weakAgainst: [
+      {
+        name: 'Rammus',
+        image: imgRammusFace
+      },
+      {
+        name: 'Warwick',
+        image: imgWarwickFace
+      },
+      {
+        name: 'Xin Zhao',
+        image: imgXinZhaoFace
+      }
+    ],
+    goodAgainst: [
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
+      },
+      {
+        name: 'Rengar',
+        image: imgRengarFace
+      },
+      {
+        name: 'Graves',
+        image: imgGravesFace
+      },
+    ],
+    synergy: [
+      {
+        name: 'Thresh',
+        image: imgThreshFace
+      },
+      {
+        name: 'Nautilus',
+        image: imgNautilusFace
       }
     ]
   },
