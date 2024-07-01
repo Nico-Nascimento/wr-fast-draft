@@ -53,6 +53,7 @@ import imgLucian from '@/public/images/champions/lucian.jpg';
 import imgLulu from '@/public/images/champions/lulu.jpg';
 import imgLux from '@/public/images/champions/lux.jpg';
 import imgMalphite from '@/public/images/champions/malphite.jpg';
+import imgMaokai from '@/public/images/champions/maokai.webp';
 import imgMasterYi from '@/public/images/champions/masteryi.jpg';
 import imgMissFortune from '@/public/images/champions/missfortune.jpg';
 import imgMorgana from '@/public/images/champions/morgana.jpg';
@@ -168,6 +169,7 @@ import imgLucianFace from '@/public/images/champions/lucian-face.webp';
 import imgLuluFace from '@/public/images/champions/lulu-face.webp';
 import imgLuxFace from '@/public/images/champions/lux-face.webp';
 import imgMalphiteFace from '@/public/images/champions/malphite-face.webp';
+import imgMaokaiFace from '@/public/images/champions/maokai-face.webp';
 import imgMasterYiFace from '@/public/images/champions/masteryi-face.webp';
 import imgMissFortuneFace from '@/public/images/champions/missfortune-face.webp';
 import imgMorganaFace from '@/public/images/champions/morgana-face.png';
@@ -3748,6 +3750,68 @@ export const champions = [
       {
         name: 'Evelynn',
         image: imgEvelynnFace
+      }
+    ]
+  },
+  {
+    name: 'Maokai',
+    image: imgMaokai,
+    weakAgainst: [
+      {
+        name: 'Kayn',
+        image: imgKaynFace
+      },
+      {
+        name: 'Xin Zhao',
+        image: imgXinZhaoFace
+      },
+      {
+        name: 'Jarvan',
+        image: imgJarvanFace
+      },
+      {
+        name: 'Morgana',
+        image: imgMorganaFace
+      },
+      {
+        name: 'Lulu',
+        image: imgLuluFace
+      },
+      {
+        name: 'Janna',
+        image: imgJannaFace
+      },
+    ],
+    goodAgainst: [
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+      {
+        name: 'Kha Zix',
+        image: imgKhaZixFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+      {
+        name: 'Blitzcrank',
+        image: imgBlitzcrankFace
+      },
+    ],
+    synergy: [
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Miss Fortune',
+        image: imgMissFortuneFace
+      },
+      {
+        name: 'Jhin',
+        image: imgJhinFace
       }
     ]
   },
