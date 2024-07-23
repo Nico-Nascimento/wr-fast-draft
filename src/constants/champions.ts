@@ -49,6 +49,7 @@ import imgKindred from '@/public/images/champions/kindred.jpg';
 import imgLeeSin from '@/public/images/champions/leesin.jpg';
 import imgLeona from '@/public/images/champions/leona.jpg';
 import imgLillia from '@/public/images/champions/lillia.jpg';
+import imgLissandra from '@/public/images/champions/lissandra.png';
 import imgLucian from '@/public/images/champions/lucian.jpg';
 import imgLulu from '@/public/images/champions/lulu.jpg';
 import imgLux from '@/public/images/champions/lux.jpg';
@@ -165,6 +166,7 @@ import imgKhaZixFace from '@/public/images/champions/khazix-face.webp';
 import imgLeeSinFace from '@/public/images/champions/leesin-face.webp';
 import imgLeonaFace from '@/public/images/champions/leona-face.png';
 import imgLilliaFace from '@/public/images/champions/lillia-face.webp';
+import imgLissandraFace from '@/public/images/champions/lissandra-face.webp';
 import imgLucianFace from '@/public/images/champions/lucian-face.webp';
 import imgLuluFace from '@/public/images/champions/lulu-face.webp';
 import imgLuxFace from '@/public/images/champions/lux-face.webp';
@@ -3462,6 +3464,60 @@ export const champions = [
       {
         name: 'Aatrox',
         image: imgAatroxFace
+      }
+    ]
+  },
+  {
+    name: 'Lissandra',
+    image: imgLissandra,
+    weakAgainst: [
+      {
+        name: 'Lux',
+        image: imgLuxFace
+      },
+      {
+        name: 'Syndra',
+        image: imgSyndraFace
+      },
+      {
+        name: 'Ziggs',
+        image: imgZiggsFace
+      },
+      {
+        name: 'Akshan',
+        image: imgAkshanFace
+      },
+      {
+        name: 'Orianna',
+        image: imgOriannaFace
+      },
+    ],
+    goodAgainst: [
+      {
+        name: 'Katarina',
+        image: imgKatarinaFace
+      },
+      {
+        name: 'Akali',
+        image: imgAkaliFace
+      },
+      {
+        name: 'Fizz',
+        image: imgFizzFace
+      },
+      {
+        name: 'Zed',
+        image: imgZedFace
+      }
+    ],
+    synergy: [
+      {
+        name: 'Thresh',
+        image: imgThreshFace
+      },
+      {
+        name: 'Viego',
+        image: imgViegoFace
       }
     ]
   },
