@@ -57,6 +57,7 @@ import imgMalphite from '@/public/images/champions/malphite.jpg';
 import imgMaokai from '@/public/images/champions/maokai.webp';
 import imgMasterYi from '@/public/images/champions/masteryi.jpg';
 import imgMissFortune from '@/public/images/champions/missfortune.jpg';
+import imgMordekaiser from '@/public/images/champions/mordekaiser.webp';
 import imgMorgana from '@/public/images/champions/morgana.jpg';
 import imgNami from '@/public/images/champions/nami.jpg';
 import imgNasus from '@/public/images/champions/nasus.jpg';
@@ -174,6 +175,7 @@ import imgMalphiteFace from '@/public/images/champions/malphite-face.webp';
 import imgMaokaiFace from '@/public/images/champions/maokai-face.webp';
 import imgMasterYiFace from '@/public/images/champions/masteryi-face.webp';
 import imgMissFortuneFace from '@/public/images/champions/missfortune-face.webp';
+import imgMordekaiserFace from '@/public/images/champions/mordekaiser-face.webp';
 import imgMorganaFace from '@/public/images/champions/morgana-face.png';
 import imgNamiFace from '@/public/images/champions/nami-face.webp';
 import imgNasusFace from '@/public/images/champions/nasus-face.webp';
@@ -3984,6 +3986,64 @@ export const champions = [
       {
         name: 'Rakan',
         image: imgRakanFace
+      }
+    ]
+  },
+  {
+    name: 'Mordekaiser',
+    image: imgMordekaiser,
+    weakAgainst: [
+      {
+        name: 'Olaf',
+        image: imgOlafFace
+      },
+      {
+        name: 'Vayne',
+        image: imgVayneFace
+      },
+      {
+        name: 'Aatrox',
+        image: imgAatroxFace
+      },
+      {
+        name: 'Fiora',
+        image: imgFioraFace
+      },
+      {
+        name: 'Warwick',
+        image: imgWarwickFace
+      }
+    ],
+    goodAgainst: [
+      {
+        name: 'Shen',
+        image: imgShenFace
+      },
+      {
+        name: 'Malphite',
+        image: imgMalphiteFace
+      },
+      {
+        name: 'Sion',
+        image: imgSionFace
+      },
+      {
+        name: 'Maokai',
+        image: imgMaokaiFace
+      }
+    ],
+    synergy: [
+      {
+        name: 'Galio',
+        image: imgGalioFace
+      },
+      {
+        name: 'Nilah',
+        image: imgNilahFace
+      },
+      {
+        name: 'Master Yi',
+        image: imgMasterYiFace
       }
     ]
   },
