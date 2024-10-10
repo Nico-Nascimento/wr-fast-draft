@@ -11,7 +11,6 @@ export default function BackgroundImage() {
           src={BACKGROUND.FRELJORD}
           alt="background"
           placeholder="blur"
-          priority
           width={2034}
           height={1080}
           className="w-full h-full object-cover object-center"
