@@ -4,6 +4,10 @@
 
 @layer base {
   :root {
+    --freljord-light: 195 100% 50%;
+    --freljord-dark: 210, 35%, 13%;
+    --scroll-freljord-light: 197, 93%, 42%;
+    --scroll-freljord-dark: 180, 20%, 5%;
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
@@ -25,86 +29,42 @@
     --ring: 240 5.9% 10%;
     --radius: 0.5rem;
   }
-
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-  }
 }
 
 @layer base {
   * {
-    @apply border-border scrollbar-thin scrollbar-track-[#070d12] scrollbar-thumb-[#047bcf];
+    @apply border-border scrollbar-thin scrollbar-track-scrollFreljordDark scrollbar-thumb-scrollFreljordLight;
   }
   body {
     @apply bg-background text-foreground;
   }
-  .text-gradient-freljord {
-    @apply bg-gradient-to-r from-[#32C8FF] from-20% to-secondary bg-clip-text text-transparent;
+  .text-gradient-freljord-light {
+    @apply bg-gradient-to-r from-freljordLight from-20% to-secondary bg-clip-text text-transparent;
   }
   .text-gradient-freljord-dark {
-    @apply bg-gradient-to-r from-[#141E37] from-20% to-secondary bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-freljordDark from-20% to-secondary bg-clip-text text-transparent;
   }
   .bg-gradient-freljord {
-    @apply bg-gradient-to-l from-[#32C8FF] from-20% to-secondary;
+    @apply bg-gradient-to-l from-freljordLight from-20% to-secondary;
   }
-  .bg-freljord {
-    @apply bg-[#32C8FF];
+  .bg-freljord-light {
+    @apply bg-freljordLight;
   }
   .bg-freljord-dark {
-    @apply bg-[#141E37];
+    @apply bg-freljordDark;
   }
   .text-freljord-light {
-    @apply text-[#32C8FF];
+    @apply text-freljordLight;
   }
   .text-freljord-dark {
-    @apply text-[#141E37];
+    @apply text-freljordDark;
   }
-  .border-freljord {
-    @apply border-[#32C8FF];
+  .border-freljord-light {
+    @apply border-freljordLight;
   }
   .border-freljord-dark {
-    @apply border-[#141E37];
+    @apply border-freljordDark;
   }
-}
-
-@font-face {
-  font-family: freljord;
-  src: url(../public/fonts/Ice\ kingdom\ -\ Bold\ -\ Por\ Kustren.ttf);
-}
-
-.text-freljord {
-  font-family: freljord;
-}
-
-.bg-freljord-home {
-  background-image: url(../public/images/backgrounds/freljord.webp);
-  background-size: cover;
-  background-position: center;
-}
-
-.bg-freljord-logo {
-  background-image: url(../public/images/backgrounds/freljord-modal.webp);
-  background-size: cover;
-  background-position: left;
-  z-index: -20;
 }
 
 @media not all and (min-width: 640px) {

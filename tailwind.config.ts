@@ -18,7 +18,14 @@ const config = {
       }
     },
     extend: {
+      fontFamily: {
+        freljord: ['var(--font-freljord)']
+      },
       colors: {
+        freljordLight: 'hsl(var(--freljord-light))',
+        freljordDark: 'hsl(var(--freljord-dark))',
+        scrollFreljordLight: 'hsl(var(--scroll-freljord-light))',
+        scrollFreljordDark: 'hsl(var(--scroll-freljord-dark))',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

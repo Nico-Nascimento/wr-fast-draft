@@ -1,10 +1,10 @@
 import type { Metadata, Viewport } from 'next';
-import { Poppins } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+const fontFreljord = localFont({
+  src: './fonts/Ice kingdom - Bold - Por Kustren.ttf',
+  variable: '--font-freljord'
 });
 
 export const metadata: Metadata = {
@@ -23,7 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={poppins.className}>{children}</body>
+      <body className={`${fontFreljord.variable} font-freljord`}>
+        {children}
+      </body>
     </html>
   );
 }

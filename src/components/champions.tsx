@@ -1,12 +1,12 @@
+import ChampionsAlphabeticalOrder from '@/components/champions-alphabetical-order';
 import { ArrowRight } from 'lucide-react';
-import ChampionsAlphabeticalOrder from './champions-alphabetical-order';
 import Link from 'next/link';
 
 export default function Champions() {
   return (
-    <div className="w-full text-freljord">
+    <div className="w-full">
       <div className="relative max-w-fit m-auto py-10 md:px-48">
-        <h1 className="text-3xl text-center text-gradient-freljord md:text-5xl lg:text-7xl">
+        <h1 className="text-3xl text-center text-gradient-freljord-light md:text-5xl lg:text-7xl">
           Campeões
         </h1>
 
@@ -22,7 +22,7 @@ export default function Champions() {
         >
           <ArrowRight className="text-freljord-light" />
 
-          <p className="text-gradient-freljord">Início</p>
+          <p className="text-gradient-freljord-light">Início</p>
         </Link>
       </div>
     </div>
