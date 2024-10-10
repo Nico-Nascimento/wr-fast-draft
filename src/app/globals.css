@@ -95,13 +95,13 @@
 }
 
 .bg-freljord-home {
-  background-image: url(../public/images/backgrounds/freljord.jpg);
+  background-image: url(../public/images/backgrounds/freljord.webp);
   background-size: cover;
   background-position: center;
 }
 
 .bg-freljord-logo {
-  background-image: url(../public/images/backgrounds/freljord-modal.jpg);
+  background-image: url(../public/images/backgrounds/freljord-modal.webp);
   background-size: cover;
   background-position: left;
   z-index: -20;
