@@ -1,6 +1,6 @@
-import { Dialog, DialogContent, DialogTrigger } from './ui/dialog';
-import ChampionModal from './champion-modal';
-import ChampionCard from './champion-card';
+import ChampionCard from '@/components/champion-card';
+import ChampionModal from '@/components/champion-modal';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { ChampionType } from '@/types/champion';
 
 export default function Champion({
@@ -19,7 +19,7 @@ export default function Champion({
         />
       </DialogTrigger>
 
-      <DialogContent className="overflow-hidden overflow-y-scroll scrollbar-none border-freljord rounded-lg max-h-[512px] max-w-xs md:max-w-xl lg:max-w-3xl">
+      <DialogContent className="overflow-hidden overflow-y-scroll scrollbar-none border-freljord-light rounded-lg max-h-[512px] max-w-xs md:max-w-xl lg:max-w-3xl">
         <ChampionModal
           championName={championName}
           championGoodAgainst={championGoodAgainst}
