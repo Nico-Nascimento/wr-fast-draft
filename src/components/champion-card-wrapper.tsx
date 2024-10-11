@@ -1,7 +1,7 @@
-import ChampionCard from '@/components/champion-card';
-import ChampionModal from '@/components/champion-modal';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
-import { ChampionType } from '@/types/champion';
+import ChampionCard from "@/components/champion-card";
+import ChampionModal from "@/components/champion-modal";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { ChampionType } from "@/types/champion";
 
 export default function Champion({
   championName,
