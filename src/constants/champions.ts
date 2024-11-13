@@ -3,6 +3,7 @@ import imgAhri from '../../public/images/champions/ahri.webp';
 import imgAkali from '../../public/images/champions/akali.webp';
 import imgAkshan from '../../public/images/champions/akshan.webp';
 import imgAlistar from '../../public/images/champions/alistar.webp';
+import imgAmbessa from '../../public/images/champions/ambessa.webp';
 import imgAmumu from '../../public/images/champions/amumu.webp';
 import imgAnnie from '../../public/images/champions/annie.webp';
 import imgAshe from '../../public/images/champions/ashe.webp';
@@ -29,6 +30,7 @@ import imgGragas from '../../public/images/champions/gragas.webp';
 import imgGraves from '../../public/images/champions/graves.webp';
 import imgGwen from '../../public/images/champions/gwen.webp';
 import imgHecarim from '../../public/images/champions/hecarim.webp';
+import imgHeimerdinger from '../../public/images/champions/heimerdinger.webp';
 import imgIrelia from '../../public/images/champions/irelia.webp';
 import imgJanna from '../../public/images/champions/janna.webp';
 import imgJarvan from '../../public/images/champions/jarvan.webp';
@@ -56,6 +58,7 @@ import imgLux from '../../public/images/champions/lux.webp';
 import imgMalphite from '../../public/images/champions/malphite.webp';
 import imgMaokai from '../../public/images/champions/maokai.webp';
 import imgMasterYi from '../../public/images/champions/masteryi.webp';
+import imgMilio from '../../public/images/champions/milio.webp';
 import imgMissFortune from '../../public/images/champions/missfortune.webp';
 import imgMordekaiser from '../../public/images/champions/mordekaiser.webp';
 import imgMorgana from '../../public/images/champions/morgana.webp';
@@ -121,6 +124,7 @@ import imgAhriFace from '../../public/images/champions/ahri-face.webp';
 import imgAkaliFace from '../../public/images/champions/akali-face.webp';
 import imgAkshanFace from '../../public/images/champions/akshan-face.webp';
 import imgAlistarFace from '../../public/images/champions/alistar-face.webp';
+import imgAmbessaFace from '../../public/images/champions/ambessa-face.webp';
 import imgAmumuFace from '../../public/images/champions/amumu-face.webp';
 import imgAnnieFace from '../../public/images/champions/annie-face.webp';
 import imgAsheFace from '../../public/images/champions/ashe-face.webp';
@@ -147,6 +151,7 @@ import imgGragasFace from '../../public/images/champions/gragas-face.webp';
 import imgGravesFace from '../../public/images/champions/graves-face.webp';
 import imgGwenFace from '../../public/images/champions/gwen-face.webp';
 import imgHecarimFace from '../../public/images/champions/hecarim-face.webp';
+import imgHeimerdingerFace from '../../public/images/champions/heimerdinger-face.webp';
 import imgIreliaFace from '../../public/images/champions/irelia-face.webp';
 import imgJannaFace from '../../public/images/champions/janna-face.webp';
 import imgJarvanFace from '../../public/images/champions/jarvan-face.webp';
@@ -174,6 +179,7 @@ import imgLuxFace from '../../public/images/champions/lux-face.webp';
 import imgMalphiteFace from '../../public/images/champions/malphite-face.webp';
 import imgMaokaiFace from '../../public/images/champions/maokai-face.webp';
 import imgMasterYiFace from '../../public/images/champions/masteryi-face.webp';
+import imgMilioFace from '../../public/images/champions/milio-face.webp';
 import imgMissFortuneFace from '../../public/images/champions/missfortune-face.webp';
 import imgMordekaiserFace from '../../public/images/champions/mordekaiser-face.webp';
 import imgMorganaFace from '../../public/images/champions/morgana-face.webp';
@@ -473,6 +479,56 @@ export const champions = [
         name: 'Draven',
         image: imgDravenFace
       }
+    ]
+  },
+  {
+    name: 'Ambessa',
+    image: imgAmbessa,
+    weakAgainst: [
+      {
+        name: 'Shen',
+        image: imgShenFace
+      },
+      {
+        name: 'Renekton',
+        image: imgRenektonFace
+      },
+      {
+        name: 'Darius',
+        image: imgDariusFace
+      },
+      {
+        name: 'Singed',
+        image: imgSingedFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      }
+    ],
+    goodAgainst: [
+      {
+        name: 'Teemo',
+        image: imgTeemoFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Gwen',
+        image: imgGwenFace
+      },
+      {
+        name: 'Jax',
+        image: imgJaxFace
+      },
+    ],
+    synergy: [
+      {
+        name: 'Shen',
+        image: imgShenFace
+      },
     ]
   },
   {
@@ -2159,6 +2215,48 @@ export const champions = [
         name: 'Yuumi',
         image: imgYuumiFace
       },
+      {
+        name: 'Shen',
+        image: imgShenFace
+      }
+    ]
+  },
+  {
+    name: 'Heimerdinger',
+    image: imgHeimerdinger,
+    weakAgainst: [
+      {
+        name: "Irelia",
+        image: imgIreliaFace
+      },
+      {
+        name: 'Yasuo',
+        image: imgYasuoFace
+      },
+      {
+        name: 'Yone',
+        image: imgYoneFace
+      },
+      {
+        name: 'Ziggs',
+        image: imgZiggsFace
+      }
+    ],
+    goodAgainst: [
+      {
+        name: 'Kassadin',
+        image: imgKassadinFace
+      },
+      {
+        name: 'Kayle',
+        image: imgKayleFace
+      },
+      {
+        name: 'Aurelion Sol',
+        image: imgAurelionSolFace
+      },
+    ],
+    synergy: [
       {
         name: 'Shen',
         image: imgShenFace
@@ -3936,6 +4034,65 @@ export const champions = [
       {
         name: 'Lulu',
         image: imgLuluFace
+      }
+    ]
+  },
+  {
+    name: 'Milio',
+    image: imgMilio,
+    weakAgainst: [
+      {
+        name: 'Blitzcrank',
+        image: imgBlitzcrankFace
+      },
+      {
+        name: 'Senna',
+        image: imgSennaFace
+      },
+      {
+        name: 'Zyra',
+        image: imgZyraFace
+      },
+      {
+        name: 'Lux',
+        image: imgLuxFace
+      },
+      {
+        name: 'Sona',
+        image: imgSonaFace
+      },
+      
+    ],
+    goodAgainst: [
+      {
+        name: 'Braum',
+        image: imgBraumFace
+      },
+      {
+        name: 'Rakan',
+        image: imgRakanFace
+      },
+      {
+        name: 'Alistar',
+        image: imgAlistarFace
+      },
+      {
+        name: 'Pantheon',
+        image: imgPantheonFace
+      },
+    ],
+    synergy: [
+      {
+        name: 'Tristana',
+        image: imgTristanaFace
+      },
+      {
+        name: 'Caitlyn',
+        image: imgCaitlynFace
+      },
+      {
+        name: 'Draven',
+        image: imgDravenFace
       }
     ]
   },
